@@ -19,12 +19,18 @@ Absolwenci kierunku informatyka odgrywają kluczową rolę w dzisiejszym społec
 Celem badania jest zastosowanie metod statystycznych porządkowania obiektów w celu utworzenia rankingów porównujących uśrednione sytuacje ekonomiczne absolwentów studiów informatycznych w Polsce. Analiza obejmuje zmienne takie jak zarobki po ukończeniu studiów, stopień zatrudnienia, lokalizacja zatrudnienia oraz ewentualne dodatkowe kwalifikacje. W literaturze istnieją badania pokazujące, że wybór konkretnej uczelni czy specjalizacji może mieć istotny wpływ na karierę zawodową i zarobki absolwentów.
 
 ### Zmienne wybrane do analizy:
-- Zarobki po ukończeniu studiów
-- Stopień zatrudnienia
-- Lokalizacja zatrudnienia
-- Dodatkowe kwalifikacje
-- Średni czas oczekiwania na znalezienie pracy po ukończeniu studiów
-- Stopień zadowolenia z pracy
+
+| Skrót zmiennej         | Opis                                                                                                                                       | Rodzaj zmiennej   |
+|------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|-------------------|
+| P_CZY_BEZR_P1          | Procent absolwentów, którzy mieli doświadczenie bycia bezrobotnym w pierwszym roku po uzyskaniu dyplomu                                   | Destymulanta       |
+| P_CZY_BEZR_P4          | Procent absolwentów, którzy mieli doświadczenie bycia bezrobotnym w czwartym roku po uzyskaniu dyplomu                                      | Destymulanta       |
+| P_ME_ZAR_STUD_P1       | Mediana średnich miesięcznych wynagrodzeń absolwentów ze wszystkich źródeł w pierwszym roku po uzyskaniu dyplomu w okresach, gdy studiowali po uzyskaniu dyplomu | Stymulanta         |
+| P_ME_ZAR_STUD_P4       | Mediana średnich miesięcznych wynagrodzeń absolwentów ze wszystkich źródeł w czwartym roku po uzyskaniu dyplomu w okresach, gdy studiowali po uzyskaniu dyplomu    | Stymulanta         |
+| P_IF_2st               | Procent osób, które po ukończeniu studiów I stopnia podjęły studia II stopnia w pierwszym roku po uzyskaniu dyplomu                        | Stymulanta         |
+| P_IF_2st_ucz           | Procent osób kontynuujących studia I stopnia na studiach II stopnia kiedykolwiek w badanym okresie, które kontynuują je na tej samej uczelni | Stymulanta         |
+| P_ME_ZAR_ETAT_DOSW_P4 | Mediana średnich miesięcznych wynagrodzeń z tytułu umów o pracę w czwartym roku po uzyskaniu dyplomu absolwentów wśród absolwentów z doświadczeniem pracy przed uzyskaniem dyplomu | Stymulanta         |
+| P_ME_ZAR_ETAT_NDOSW_P4| Mediana średnich miesięcznych wynagrodzeń z tytułu umów o pracę w czwartym roku po uzyskaniu dyplomu absolwentów nie wśród absolwentów z doświadczeniem pracy przed uzyskaniem dyplomu | Stymulanta         |
+
 
 ## Opis metod
 ### Uzupełnienie pustych danych:
