@@ -28,4 +28,4 @@ df.loc[mask_ETAT_DOSW_P4, 'P_ME_ZAR_ETAT_DOSW_P4'] = df.loc[mask_ETAT_DOSW_P4, '
 mask_ETAT_NDOSW_P4 = df['P_ME_ZAR_ETAT_NDOSW_P4'].isnull()
 df.loc[mask_ETAT_NDOSW_P4, 'P_ME_ZAR_ETAT_NDOSW_P4'] = df.loc[mask_ETAT_NDOSW_P4, 'P_ME_ZAR_ETAT_DOSW_P4'] * (mean_P_ME_ZAR_ETAT_NDOSW_P4 / mean_P_ME_ZAR_ETAT_DOSW_P4)
 
-df.to_excel('koncowe.xlsx', index=False)
+df.to_excel('uzupelnione.xlsx', index=False)
