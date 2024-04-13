@@ -32,6 +32,16 @@ Celem badania jest zastosowanie metod statystycznych porządkowania obiektów w 
 | P_ME_ZAR_ETAT_NDOSW_P4| Mediana średnich miesięcznych wynagrodzeń z tytułu umów o pracę w czwartym roku po uzyskaniu dyplomu absolwentów nie wśród absolwentów z doświadczeniem pracy przed uzyskaniem dyplomu | Stymulanta         |
 
 
+**Uzasadnienie:**
+
+- **Destymulanty:** Zmienne `P_CZY_BEZR_P1` i `P_CZY_BEZR_P4` są istotne, ponieważ odzwierciedlają procent absolwentów, którzy mieli doświadczenie bycia bezrobotnym w pierwszym i czwartym roku po uzyskaniu dyplomu. Stanowią istotne wskaźniki niepewności ekonomicznej po ukończeniu studiów.
+
+- **Stymulanty:** Pozostałe zmienne, takie jak `P_ME_ZAR_STUD_P1`, `P_ME_ZAR_STUD_P4`, `P_ME_ZAR_ETAT_DOSW_P4` oraz `P_ME_ZAR_ETAT_NDOSW_P4`, odzwierciedlają różne aspekty sytuacji ekonomicznej absolwentów, takie jak poziom wynagrodzeń, czy mediany wynagrodzeń w zatrudnieniu etatowym z i bez doświadczenia pracy przed uzyskaniem dyplomu. Pozwalają one na zrozumienie różnic w zarobkach wśród absolwentów kierunku informatyka na polskich uczelniach. Aby wyniki były jak najbardzie obiektywne, rozdzieliliśmy czas (1 rok- zaraz po studiach i 4 lata- po zdobyciu pierwszych doświadczeń na rynku), co zmiejsza znacząco losowość analizy. Użyliśmy do analizy rówenież `P_IF_2st`, `P_IF_2st_ucz`, które mówią o kontynuacji nauki na wyższym poziomie na danej uczelni. Zakładamy, że im lepsza uczelnia, tym częściej jej studenci zdecydują się na kontynuacje tam studiów drugiego stopnia, zamiast podejmować te studia na innej uczelni.
+
+
+
+
+
 ## Opis metod
 ### Uzupełnienie pustych danych:
 1. Program oblicza średnie wartości dla określonych kolumn, które są używane jako współczynniki w symulacji.
