@@ -39,6 +39,28 @@ Celem badania jest zastosowanie metod statystycznych porządkowania obiektów w 
 3. Na podstawie tych maski oraz wcześniej obliczonych średnich wartości, program przeprowadza mnożenie wartości w pustych komórkach przez odpowiednie współczynniki. Te współczynniki są stosowane proporcjonalnie do danych w innych kolumnach lub na podstawie innych czynników, które są istotne dla analizy.
 4. Wartości te są używane do uzupełnienia brakujących danych, co pozwala zachować spójność i logiczność danych w analizie.
 
+
+#### Fragmenty kodu:
+
+```python
+mean_P_ME_ZAR_STUD_P4 = df['P_ME_ZAR_STUD_P4'].mean()
+mean_P_ME_ZAR_STUD_P1 = df['P_ME_ZAR_STUD_P1'].mean()
+```
+Obliczamy średnie wartości dla kolumn `P_ME_ZAR_STUD_P4` i `P_ME_ZAR_STUD_P1`.
+
+```python
+mask_P1 = df['P_ME_ZAR_STUD_P1'].isnull()
+df.loc[mask_P1, 'P_ME_ZAR_STUD_P1'] = df.loc[mask_P1, 'P_ME_ZAR_STUD_P4'] * (mean_P_ME_ZAR_STUD_P1 / mean_P_ME_ZAR_STUD_P4)
+```
+Tworzymy maskę (`mask_P1`), która wskazuje, które wartości w kolumnie `P_ME_ZAR_STUD_P1` są puste. Używamy tej maski do znalezienia odpowiednich wierszy w kolumnie `P_ME_ZAR_STUD_P4`, aby uzyskać wartości, które wykorzystamy do uzupełnienia pustych miejsc w kolumnie `P_ME_ZAR_STUD_P1`. Wartości są uzupełniane na podstawie proporcji między średnimi wartościami `P_ME_ZAR_STUD_P4` i `P_ME_ZAR_STUD_P1`.
+
+Analogiczne operacje wykonywane są dla pozostałych kolumn i wartości.
+
+```python
+df.to_excel('uzupelnione.xlsx', index=False)
+```
+Po uzupełnieniu pustych wartości, zapisujemy zmodyfikowane dane do nowego pliku Excel, który można wykorzystać do dalszych analiz.
+
 ## Wyniki
 
 ## Podsumowanie
