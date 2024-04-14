@@ -249,6 +249,12 @@ wartości i dzieli przez ilość cech które porównujemy.
 Ranking 20 najlepszych kierunków informatycznych według metody D.Strahl:
 ![435786763_3587488808157186_3437291051710121353_n](https://github.com/KDudek1104/computer-science-ranking/assets/139448704/7c53aad0-4d96-4671-b7e3-e9af74eeb29a)
 
+### Analiza metodą SSW
+Wzór:
+![438154441_1453719338911414_3317707286583713279_n](https://github.com/KDudek1104/computer-science-ranking/assets/139448704/a4c3fe98-637f-40d2-a1c5-9a84afbd1a97)
+
+Napisac ranking 20 najlepszych kieronkow informatycznych według SSW:
+![438204633_810091810999960_8622275920193850398_n (1)](https://github.com/KDudek1104/computer-science-ranking/assets/139448704/824338d9-a58e-40d5-9799-487fb7c8e654)
 
 
 # Podsumowanie
