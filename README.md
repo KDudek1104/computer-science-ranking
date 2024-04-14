@@ -1,4 +1,4 @@
-# Ekonomiczne losy absolwentów kierunku informatyka na polskich uczelniach
+# Badanie perspektyw zawodowych absolwentów kierunku informatyka na polskich uczelniach
 
 ## Spis treści
 
@@ -28,7 +28,8 @@
 10. [Bibliografia](#bibliografia)
     
 # Tytuł pracy
-Ekonomiczne losy absolwentów kierunku informatyka na polskich uczelniach
+Badanie perspektyw zawodowych absolwentów kierunku informatyka na polskich uczelniach
+
 # Autorzy
 - Katarzyna Dudek 217369
 - Jakub Czabok 217293
@@ -36,16 +37,17 @@ Ekonomiczne losy absolwentów kierunku informatyka na polskich uczelniach
 - Mateusz Chudowolski 217330
 
 # Streszczenie
-Poniższa praca przedstawia badanie ekonomicznych losów absolwentów studiów informatycznych w Polsce. Poprzez zastosowanie metod statystycznych porządkowania obiektów utworzony zostanie swego rodzaju ranking porównujący uśrednioną sytuację ekonomiczną po ukończeniu poszczególnych studiów.
+Niniejsza analiza prezentuje badanie ekonomicznej sytuacji absolwentów studiów informatycznych w Polsce. Wykorzystując metody statystyczne do porządkowania danych, zostanie stworzony ranking, umożliwiający porównanie uśrednionej sytuacji ekonomicznej po ukończeniu poszczególnych programów studiów.
 
 # Słowa kluczowe
-Porządkowanie obiektów, statystyki zarobków i zatrudnienia, ekonomiczne losy absolwentów
+Porządkowanie obiektów, statystyki zarobków i zatrudnienia, perspektywy zawodowe absolwentów
 
 # Wprowadzenie
 Absolwenci kierunku informatyka odgrywają kluczową rolę w dzisiejszym społeczeństwie opartym na technologii. Jednakże, ich ekonomiczne losy po ukończeniu studiów mogą znacząco się różnić w zależności od wielu czynników. Niniejsza praca ma na celu zbadanie tych różnic oraz stworzenie rankingów porównujących sytuację ekonomiczną absolwentów poszczególnych uczelni i programów studiów informatycznych w Polsce.
 
 # Przedmiot badania
 Celem badania jest zastosowanie metod statystycznych porządkowania obiektów w celu utworzenia rankingów porównujących uśrednione sytuacje ekonomiczne absolwentów studiów informatycznych w Polsce. Analiza obejmuje zmienne takie jak zarobki po ukończeniu studiów, stopień zatrudnienia, lokalizacja zatrudnienia oraz ewentualne dodatkowe kwalifikacje. W literaturze istnieją badania pokazujące, że wybór konkretnej uczelni czy specjalizacji może mieć istotny wpływ na karierę zawodową i zarobki absolwentów.
+
 ## Cel i zakres badania
 
 ## Przegląd literatury
