@@ -251,12 +251,16 @@ Ranking 20 najlepszych kierunków informatycznych według metody D.Strahl:
 
 
 
-### Wyniki
-
-
 # Podsumowanie
 Praca skupiła się na badaniu ekonomicznych losów absolwentów studiów informatycznych w Polsce. Uzyskane wyniki potwierdzają istotność wyboru programu studiów i uczelni dla przyszłych perspektyw zawodowych i zarobków absolwentów. Odniesienie do literatury wskazuje na zgodność uzyskanych wyników z wcześniejszymi badaniami w dziedzinie.
 ## Ocena realizacji celu
+
+Niniejsza analiza danych stanowi istotny krok w zrozumieniu perspektyw zawodowych absolwentów kierunku informatyka na polskich uczelniach. Cel badania został w pełni zrealizowany poprzez zastosowanie metod statystycznych porządkowania obiektów do utworzenia rankingów porównujących sytuacje ekonomiczne absolwentów różnych programów studiów informatycznych. Analiza uwzględniała istotne zmienne takie jak zarobki po ukończeniu studiów, stopień bezrobocia i odsetek osób pozostających na studiach drugiego stopnia na uczelni.
+
+Wyniki uzyskane dzięki zastosowaniu metod analizy porządkowania liniowego, takich jak metoda Hellwiga i metoda MUZ, pozwoliły na hierarchiczne uporządkowanie danych. Dzięki przeprowadzonej analizie, studenci, badacze i instytucje edukacyjne mogą lepiej zrozumieć wpływ różnych czynników, takich jak uczelnia czy specjalizacja, na karierę zawodową i zarobki absolwentów.
+
+Jednak należy pamiętać, że dynamika rynku pracy oraz inne czynniki zewnętrzne mogą wpływać na sytuację ekonomiczną absolwentów w sposób trudny do uchwycenia jedynie na podstawie danych historycznych. Dlatego też, w celu pełniejszego zrozumienia perspektyw zawodowych absolwentów kierunku informatyka, konieczne mogą być dalsze badania i analizy, uwzględniające zmiany w otoczeniu społeczno-ekonomicznym oraz rynku pracy.
+
 ## Odniesienie do pozycji z przeglądu literatury
 **Różnice**
 
