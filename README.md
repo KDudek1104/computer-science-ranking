@@ -58,6 +58,17 @@ Celem badania jest zrozumienie perspektyw zawodowych absolwentów kierunku infor
 Badanie będzie obejmować analizę sytuacji zawodowej absolwentów kierunku informatyka na polskich uczelniach. Będziemy korzystać z metod statystycznych, takich jak analiza porządkowania liniowego (metoda Hellwiga, metoda MUZ), oraz analiza TOPSIS. Obejmuje to zbieranie danych dotyczących zarobków po ukończeniu studiów, stopnia zatrudnienia, lokalizacji zatrudnienia oraz ewentualnych dodatkowych kwalifikacji. Analiza będzie opierać się na zestawie zmiennych, które zostały wybrane na podstawie przeglądu literatury oraz ich istotności w kontekście badanej problematyki. Dodatkowo, w ramach badania przeprowadzona zostanie wstępna analiza danych, w tym statystyki opisowe, podstawowa wizualizacja danych oraz obsługa brakujących danych.
 
 ## Przegląd literatury
+W ramach porównania do naszej analizy wybraliśmy ranking polskich uczelni względem kierunku "Informatyka" przygotowany przez "Perspektywy".
+
+Metodologia ich analizy obejmuje takie czynniki jak:
+1. **Prestiż uczelni:** Ocena przez kadrę akademicką, liczba wskazań danej uczelni w badaniu ankietowym wśród kadry akademickiej.
+2. **Losy zawodowe absolwentów:** Wskaźnik mierzony wysokością zarobków absolwentów uczelni oraz stopniem ich zatrudnienia.
+3. **Potencjał akademicki:** Określony poprzez ocenę kategorii naukowej uczelni.
+4. **Potencjał dydaktyczny:** Liczba posiadanych aktualnych akredytacji i certyfikatów międzynarodowych oraz jakość przyjętych na studia.
+5. **Potencjał naukowy:** Liczba publikacji, cytowalność, wskaźnik FWCI, FWVI oraz obecność publikacji w top 10% najczęściej cytowanych czasopismach.
+6. **Umiędzynarodowienie:** Udział publikacji we współpracy zagranicznej oraz liczba studentów obcokrajowców.
+
+
 
 ## Zmienne wybrane do analizy:
 
@@ -247,6 +258,18 @@ Ranking 20 najlepszych kierunków informatycznych według metody D.Strahl:
 Praca skupiła się na badaniu ekonomicznych losów absolwentów studiów informatycznych w Polsce. Uzyskane wyniki potwierdzają istotność wyboru programu studiów i uczelni dla przyszłych perspektyw zawodowych i zarobków absolwentów. Odniesienie do literatury wskazuje na zgodność uzyskanych wyników z wcześniejszymi badaniami w dziedzinie.
 ## Ocena realizacji celu
 ## Odniesienie do pozycji z przeglądu literatury
+**Różnice**
+
+Zauważyliśmy liczne różnice w stusunku do znalezionej pozycji z przeglądu literatury.
+Różnice między analizą w rankingu "Perspektywy" a naszą analizą obejmują:
+- Stopień studiów: nasza analiza skupia się na absolwentach studiów inżynierskich i licencjackich, zaś ranking "Perspektyw" na studiach magisterskich.
+- Specyfikę zmiennych i wskaźników branych pod uwagę w analizie, np. "Perspektywy" uwzględniają wskaźniki takie jak prestiż uczelni, potencjał akademicki i dydaktyczny oraz umiędzynarodowienie.
+  W naszym rankingu został postawiony nacisk na losy zawoodowe studentów, czyli ich zarobki (podzielone na kilka odzdzielnych zmiennych), procent bezrobocia czy chęć zostania na studiach drugiego stonia na danej uczelni. Ostatnia wymieniona zmienna nie została w ogóle ujęta w rankingu "Perspektywy".
+- Metodologie obliczeniowe, tj. sposób obliczania i wagi przypisywane poszczególnym zmiennym są w pewnej części różne między naszą analizą a rankingiem "Perspektywy".
+- Zakres analizy, np. "Perspektywy" skupiły się bardziej ogólnie niż my, podczas gdy nasza analiza jest bardziej szczegółowa w określonej dziedzinie- zawodowe losy absolwentów.
+- "Perspektywy" mają dwa osobne rankingi dla studiów informatycznych, z czego jeden jest jedynie dla programów z tytułem "magister inżynier", a jeden jedynie dla programów z tytułem "inżynier". Utrudnia to porównanie ze sobą dwóch kierunków informatycznych z innym nadawanym tytułem, czego chcieliśmy uniknąć w naszej analizie.
+Warto również zaznaczyć, że nasza analiza może być bardziej spersonalizowana, pozwalając na dostosowanie metodologii do konkretnych potrzeb i celów badawczych.
+
 # Bibliografia
 1. Kukuła, Karol, and Lidia Luty. “O Wyborze Metody Porządkowania Liniowego do Oceny Gospodarki odpadami W polsce W Ujęciu Przestrzennym.” Zeszyty Naukowe SGGW w Warszawie - Problemy Rolnictwa Światowego, vol. 18, no. 2, 30 June 2018, pp. 183–192, https://doi.org/10.22630/prs.2018.18.2.46. 
 2. https://en.wikipedia.org/wiki/TOPSIS
