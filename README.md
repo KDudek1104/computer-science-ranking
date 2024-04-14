@@ -71,8 +71,11 @@ df.to_excel('uzupelnione.xlsx', index=False)
 ```
 Po uzupełnieniu pustych wartości, zapisujemy zmodyfikowane dane do nowego pliku Excel, który można wykorzystać do dalszych analiz.
 
-## Wartości odstające
+### Wartości odstające
 W naszej analizie ekonomicznych losów absolwentów kierunku informatyka na polskich uczelniach nie było potrzeby obsługiwać obserwacji odstających. Wynika to głównie z charakteru danych oraz sposobu ich zbierania. Dane te są agregatami liczbowymi, takimi jak procent absolwentów w różnych kategoriach, mediany wynagrodzeń i inne miary podobne, które zostały zebrane na poziomie grupy absolwentów. Usunięcie takich obserwacji mogłoby zniekształcić rzeczywisty obraz sytuacji ekonomicznej absolwentów. Jednocześnie, po wstępnej analizie nie zauważyliśmy wyników, które można byloby uznać za nieprawidłowe- a odchylenia- zarówno te większe jak i mniejsze, są w naszej analizie bardzo ważne i pokazują jak bardzo różne są losy absolwentów po różnych uczelniach. Dlatego też zdecydowaliśmy się na pozostawienie danych w ich pierwotnej formie, bez dalszego przetwarzania w celu obsługi ewentualnych obserwacji odstających.
+
+## Wyniki
+
 
 ## Podsumowanie
 Praca skupiła się na badaniu ekonomicznych losów absolwentów studiów informatycznych w Polsce. Uzyskane wyniki potwierdzają istotność wyboru programu studiów i uczelni dla przyszłych perspektyw zawodowych i zarobków absolwentów. Odniesienie do literatury wskazuje na zgodność uzyskanych wyników z wcześniejszymi badaniami w dziedzinie.
