@@ -52,6 +52,7 @@ Celem badania jest zastosowanie metod statystycznych porządkowania obiektów w 
 **Cel**
 
 Celem badania jest zrozumienie perspektyw zawodowych absolwentów kierunku informatyka na polskich uczelniach poprzez analizę ich perspektyw zawodowych po ukończeniu studiów. Chcemy zbadać wpływ różnych czynników, takich jak uczelnia, program studiów, doświadczenie zawodowe zdobywane podczas studiów, na zarobki i zatrudnienie absolwentów. Naszym celem jest stworzenie rankingów, które pozwolą porównać uśrednione sytuacje zawodowe absolwentów różnych programów studiów informatycznych na polskich uczelniach.
+
 **Zakres**
 
 Badanie będzie obejmować analizę sytuacji zawodowej absolwentów kierunku informatyka na polskich uczelniach. Będziemy korzystać z metod statystycznych, takich jak analiza porządkowania liniowego (metoda Hellwiga, metoda MUZ), oraz analiza TOPSIS. Obejmuje to zbieranie danych dotyczących zarobków po ukończeniu studiów, stopnia zatrudnienia, lokalizacji zatrudnienia oraz ewentualnych dodatkowych kwalifikacji. Analiza będzie opierać się na zestawie zmiennych, które zostały wybrane na podstawie przeglądu literatury oraz ich istotności w kontekście badanej problematyki. Dodatkowo, w ramach badania przeprowadzona zostanie wstępna analiza danych, w tym statystyki opisowe, podstawowa wizualizacja danych oraz obsługa brakujących danych.
