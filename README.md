@@ -52,11 +52,6 @@ Celem badania jest zastosowanie metod statystycznych porządkowania obiektów w 
 
 ## Przegląd literatury
 
-
-
-
-
-
 ## Zmienne wybrane do analizy:
 
 | Skrót zmiennej         | Opis                                                                                                                                       | Rodzaj zmiennej   |
@@ -77,9 +72,27 @@ Celem badania jest zastosowanie metod statystycznych porządkowania obiektów w 
 
 - **Stymulanty:** Pozostałe zmienne, takie jak `P_ME_ZAR_STUD_P1`, `P_ME_ZAR_STUD_P4`, `P_ME_ZAR_ETAT_DOSW_P4` oraz `P_ME_ZAR_ETAT_NDOSW_P4`, odzwierciedlają różne aspekty sytuacji ekonomicznej absolwentów, takie jak poziom wynagrodzeń, czy mediany wynagrodzeń w zatrudnieniu etatowym z i bez doświadczenia pracy przed uzyskaniem dyplomu. Pozwalają one na zrozumienie różnic w zarobkach wśród absolwentów kierunku informatyka na polskich uczelniach. Aby wyniki były jak najbardzie obiektywne, rozdzieliliśmy czas (1 rok- zaraz po studiach i 4 lata- po zdobyciu pierwszych doświadczeń na rynku), co zmiejsza znacząco losowość analizy. Użyliśmy do analizy rówenież `P_IF_2st`, `P_IF_2st_ucz`, które mówią o kontynuacji nauki na wyższym poziomie na danej uczelni. Zakładamy, że im lepsza uczelnia, tym częściej jej studenci zdecydują się na kontynuacje tam studiów drugiego stopnia, zamiast podejmować te studia na innej uczelni.
 
-### Wstępna analiza danych
+**Charakterystyka zmiennych użytych do analizy**
+
+Większość kierunków informatycznych w Polsce, przyjętych do analizy to kierunki stacjonarne:
+![435740204_738431308495392_706943029595757031_n](https://github.com/KDudek1104/computer-science-ranking/assets/139448704/f32d62aa-36d6-431a-afed-493a29ae9ce3)
+
+Jako kierunki informatyczne potraktowaliśmy nie tylko kierunek o nazwie 'Informatyka', ale również kierunki blisko pokrewne. Wykres z liczebnością konkretnych kierunków względem ich nazwy został pokazany poniżej:
+![435649959_782637977133761_7021763242141476053_n](https://github.com/KDudek1104/computer-science-ranking/assets/139448704/6c8d5fca-78a3-418f-b749-87db847534eb)
+
+Już przy wstępnej analizie danych widać pierwsze charakterystyczne cechy poszczególnych zmiennych. Poniżej zamieszczony został wykres ukazujący wyraźne różnice między medianą zarobków po informatyce na polskich uczelniach po 1. roku po uzyskaniu dyplomu w porównaniu z 4. rokiem po uzyskaniu dyplomu. Ukazuje to wysoki wpływ doświadczenia zawodowego na wysokość zarobków w tej branży.
+![435816852_449924534150871_1923132795031598496_n](https://github.com/KDudek1104/computer-science-ranking/assets/139448704/7da5b713-975e-43a2-9bd3-c805029204a7)
+
+Zauważyliśmy również wyraźną różnicę, chociaż nie tak, jak na poprzednim wykresie, ilustrującą poziom mediany zarobków z umów o pracę u osób z doświadczeniem i osób bez doświadczenia zdobywanego podczas studiów. Osoby pracujące na studiach osiągają wyższe zarobki od niepracujących nawet cztery lata po uzyskaniu dyplomu.
+![435634353_782539333826726_6390269249690547385_n](https://github.com/KDudek1104/computer-science-ranking/assets/139448704/08e31fc5-1bc3-4f91-a668-9ffd8a741662)
+
+
+
+## Wstępna analiza danych
+
 ### Statystyki opisowe
 ### Podstawowa wizualizacja
+
 ### Braki danych
 Braki danych były ważnym problemem w analizie, który należało obsłużyć. Wszystkie uczelnie miały pełne dane dotyczące bezrobocia i procentu osób kontynujących studia 2. stopnia na tej samej uczelni. Niestety, nie dysponowaliśmy przy niektórych pozycjach informacjami odnośnie zarobków (zarówno rok jak i 4 lata po dyplomie). Pozycje, w których brakowało obu kolumn w danym roku po uzyskaniu dyplomu (1 lub 4) zarówno w medianie zarobków z tytułu o prace, jak i medianie zarobków ze wszystkich źródeł, były usuwane. Uważamy, że symulacja tak ważnych kolumn w naszej analizie nie byłaby wystarczająco obiektywna. Jeśli jednak mieliśmy dane odnośnie co najmniej jednej kolumny (patrząc osobno na rok 1. i rok 4.), symulowliśmy dane w kolumnie z tym samym rokiem po uzyskaniu dyplomu. Odpowiednio:
 1. Gdy brakowało danej w kolumnie 'P_ME_ZAR_STUD_P1', ale mieliśmy tą daną w kolumnie 'P_ME_ZAR_STUD_P4', mnożyliśmy wartość dla tego wiersza z kolumny 'P_ME_ZAR_STUD_P4' przez współczynnik przejścia między średnią ze wszystkich wartości z kolumny 'P_ME_ZAR_STUD_P1', a 'P_ME_ZAR_STUD_P4'
