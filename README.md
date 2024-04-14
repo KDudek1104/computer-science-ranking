@@ -127,6 +127,9 @@ W ramach naszej analizy danych skorzystaliśmy z metody Hellwiga, która został
 Cecha syntetyczna:
 ![image](https://github.com/KDudek1104/computer-science-ranking/assets/44409389/833d406a-cb2c-476c-82ee-46edb8ea537e)
 
+Wzory:
+![image](https://github.com/KDudek1104/computer-science-ranking/assets/44409389/75a3fda1-3f04-4e43-aa58-0338c25ec1a6)
+
 ### Analiza metodą MUZ
 W naszym badaniu danych wykorzystaliśmy Metodę Ujednoliconego Zmniejszania (MUZ) do uporządkowania liniowego danych. MUZ, będąca techniką minimalizacji kryteriów skrajnych, umożliwia wyodrębnienie kluczowych cech lub zmiennych decyzyjnych. Poprzez dokładne porównanie poszczególnych zmiennych, analiza za pomocą MUZ pozwoliła nam na ich hierarchiczne uporządkowanie, uwzględniając ich istotność w badanym kontekście.
 
