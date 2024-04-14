@@ -162,6 +162,47 @@ Cecha syntetyczna:
 Wzory:
 ![image](https://github.com/KDudek1104/computer-science-ranking/assets/44409389/65840d9c-007d-425b-9c6d-4c9dbadd5015)
 
+### Analiza metodą TOPSIS
+Jako jedną z metod analizy danych wykorzystaliśmy TOPSIS (Technique for Order of Preference by Similarity to Ideal Solution) zaproponowaną przez Ching-Lai Hwang'a oraz Yoon'a w pracy "Multiple Attribute Decision Making: Methods and Applications" z 1981 roku. TOPSIS polega na utworzeniu wzorca jako zestaw najbardziej pożądanych wartości cech oraz antywzorca jako przeciwieństwo reprezentowane przez wektor najmniej pożądanych wartości. Po znormalizowaniu danych wejściowych i utworzeniu wzorca oraz antywzorca wynik analizy TOPSIS to iloraz odległości euklidesowej od antywzorca oraz sumy odległości od wzorca i antywzorca.
+
+W tej metodzie normalizację danych przeprowadza się stosując poniższy wzór:
+
+![435608291_1096683048221400_8963528647939478991_n](https://github.com/KDudek1104/computer-science-ranking/assets/139448704/0b4a4ae0-29d9-4dac-9111-37026587cc52)
+
+
+
+gdzie:  n_ij to wartość cechy j dla obiektu i po znormalizowaniu, 
+x_ij to nominalna wartość cechy j dla obiektu i 
+m to liczba obiektów
+n to liczba cech dla każdego obiektu
+
+W naszym przypadku ze względu na zastosowanie zarówno stymulant jak i destymulant wektor wzorca składa się z wartości maksymalnych każdej cechy po znormalizowaniu będącej stymulantem i minimalnych wartości dla destymulantów, natomiast wektor antywzorca będzie składał się z maksymalnych wartości dla destymulantów a minimalnych dla destymulantów. 
+
+
+Odległość od wzorca i antywzorca to odpowiednio d_i+ oraz d_i- według poniższych wzorów:
+
+![435657575_1101631484292102_8527506804191328804_n](https://github.com/KDudek1104/computer-science-ranking/assets/139448704/23b47b54-43b7-4117-bd3c-2884434c0b73)
+
+
+
+gdzie z_ij to wartość cechy j dla obiektu i po znormalizowaniu
+m to liczba cech dla każdego obiektu
+
+Ostateczny wynik analizy TOPSIS to wartość Q dla określonego obiektu, która jest wyrażona poniższym ilorazem:
+
+![436578556_1778419016002811_9064331869705549827_n](https://github.com/KDudek1104/computer-science-ranking/assets/139448704/935e0e62-d6e4-4aa7-9a05-89f2806727fe)
+
+
+gdzie d_i- to odległość obiektu i od antywzorca
+	d_i+ to odległość obiektu i od wzorca
+
+
+Ranking 20 najlepszych kierunków informatycznych według metody TOPSIS:
+
+![436837674_1150883706325819_5692944060771722608_n](https://github.com/KDudek1104/computer-science-ranking/assets/139448704/5e63be08-a565-4509-8ad6-688a3a4dadd1)
+
+
+
 ### Wyniki
 
 
@@ -170,4 +211,8 @@ Praca skupiła się na badaniu ekonomicznych losów absolwentów studiów inform
 ## Ocena realizacji celu
 ## Odniesienie do pozycji z przeglądu literatury
 # Bibliografia
-Kukuła, Karol, and Lidia Luty. “O Wyborze Metody Porządkowania Liniowego do Oceny Gospodarki odpadami W polsce W Ujęciu Przestrzennym.” Zeszyty Naukowe SGGW w Warszawie - Problemy Rolnictwa Światowego, vol. 18, no. 2, 30 June 2018, pp. 183–192, https://doi.org/10.22630/prs.2018.18.2.46. 
+1. Kukuła, Karol, and Lidia Luty. “O Wyborze Metody Porządkowania Liniowego do Oceny Gospodarki odpadami W polsce W Ujęciu Przestrzennym.” Zeszyty Naukowe SGGW w Warszawie - Problemy Rolnictwa Światowego, vol. 18, no. 2, 30 June 2018, pp. 183–192, https://doi.org/10.22630/prs.2018.18.2.46. 
+2. Problemy Rolnictwa Światowego tom 18 - Karol Kukuła, Lidia Luty
+3. https://en.wikipedia.org/wiki/TOPSIS
+4. Extension of TOPSIS for decision-making problems with interval data: Interval efficiency - G.R. Jahanshahloo, F. Hosseinzadeh Lotfi, A.R. Davoodi
+5. Multiple Attribute Decision Making: Methods and Applications - Ching-Lai Hwang, Yoon
