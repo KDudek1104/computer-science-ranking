@@ -116,8 +116,14 @@ W naszej analizie ekonomicznych losów absolwentów kierunku informatyka na pols
 
 # Opis metod
 
-## Analiza metodą TOPSIS
+### Analiza metodą TOPSIS
 Jako jedną z metod analizy danych wykorzystaliśmy TOPSIS (Technique for Order of Preference by Similarity to Ideal Solution) zaproponowaną przez Ching-Lai Hwang'a oraz Yoon'a w pracy "Multiple Attribute Decision Making: Methods and Applications" z 1981 roku. TOPSIS polega na utworzeniu wzorca jako zestaw najbardziej porządanych wartości cech oraz antywzorca jako przeciwieństwo reprezentowane przez wektor najmniej porządanych wartości. Po znormalizowaniu danych wejściowych i utworzeniu wzorca oraz antywzorca wynik analizy TOPSIS to iloraz odległości euklidesowej od antywzorca oraz sumy odległości od wzorca i antywzorca.
+
+### Analiza metodą Hellwiga
+W ramach naszej analizy danych skorzystaliśmy z metody Hellwiga, która została opracowana przez Leo A. Hellwiga w 1972 roku. Jest to jedna z najczęściej stosowanych technik analizy danych, zwłaszcza w kontekście porządkowania liniowego. Metoda ta bazuje na minimalizacji kryteriów skrajnych, co umożliwia wyłonienie istotnych cech lub zmiennych decyzyjnych. Poprzez dokładne porównanie poszczególnych zmiennych, analiza przy użyciu metody Hellwiga pozwala na ich uporządkowanie z uwzględnieniem ich znaczenia w kontekście badanych danych.
+
+### Analiza metodą MUZ
+W naszym badaniu danych wykorzystaliśmy Metodę Ujednoliconego Zmniejszania (MUZ) do uporządkowania liniowego danych. MUZ, będąca techniką minimalizacji kryteriów skrajnych, umożliwia wyodrębnienie kluczowych cech lub zmiennych decyzyjnych. Poprzez dokładne porównanie poszczególnych zmiennych, analiza za pomocą MUZ pozwoliła nam na ich hierarchiczne uporządkowanie, uwzględniając ich istotność w badanym kontekście.
 
 ### Wyniki
 
