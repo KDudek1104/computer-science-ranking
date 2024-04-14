@@ -7,7 +7,7 @@
 3. [Streszczenie](#streszczenie)
 4. [Słowa kluczowe](#Słowa-Kluczowe)
 5. [Wprowadzenie](#wprowadzenie)
-6. [Przedmiot badania]
+6. [Przedmiot badania](#przedmiot-badania)
    - [Cel i zakres badania](#cel-i-zakres-badania)
    - [Przegląd literatury](#przegląd-literatury)
    - [Zmienne wybrane do analizy](#zmienne-wybrane-do-analizy)
@@ -83,12 +83,12 @@ Braki danych były ważnym problemem w analizie, który należało obsłużyć. 
 1. Gdy brakowało danej w kolumnie 'P_ME_ZAR_STUD_P1', ale mieliśmy tą daną w kolumnie 'P_ME_ZAR_STUD_P4', mnożyliśmy wartość dla tego wiersza z kolumny 'P_ME_ZAR_STUD_P4' przez współczynnik przejścia między średnią ze wszystkich wartości z kolumny 'P_ME_ZAR_STUD_P1', a 'P_ME_ZAR_STUD_P4'
 2. Analogicznie w odwrotnym przypadku (gdy brakowało danej w kolumnie 'P_ME_ZAR_STUD_P4', ale mieliśmy tą daną w kolumnie 'P_ME_ZAR_STUD_P1')
 3. Gdy brakowało danej w kolumnie `P_ME_ZAR_ETAT_DOSW_P4`, ale mieliśmy tą daną w kolumnie `P_ME_ZAR_ETAT_NDOSW_P4`, mnożyliśmy wartość dla tego wiersza z kolumny `P_ME_ZAR_ETAT_NDOSW_P4` przez współczynnik przejścia między średnią ze wszystkich wartości z kolumny `P_ME_ZAR_ETAT_DOSW_P4`, a `P_ME_ZAR_ETAT_NDOSW_P4`.
+4. 
 #### Dzialanie programu uzupełniającego puste dane:
 1. Program oblicza średnie wartości dla określonych kolumn, które są używane jako współczynniki w symulacji.
 2. Tworzy maski dla komórek, które zawierają brakujące dane w poszczególnych kolumnach.
 3. Na podstawie tych maski oraz wcześniej obliczonych średnich wartości, program przeprowadza mnożenie wartości w pustych komórkach przez odpowiednie współczynniki. Te współczynniki są stosowane proporcjonalnie do danych w innych kolumnach lub na podstawie innych czynników, które są istotne dla analizy.
 4. Wartości te są używane do uzupełnienia brakujących danych, co pozwala zachować spójność i logiczność danych w analizie.
-
 
 #### Fragmenty kodu:
 
@@ -111,19 +111,19 @@ df.to_excel('uzupelnione.xlsx', index=False)
 ```
 Po uzupełnieniu pustych wartości, zapisujemy zmodyfikowane dane do nowego pliku Excel, który można wykorzystać do dalszych analiz.
 
-#### Obserwacje odstające
-## Opis metod
+### Obserwacje odstające
+W naszej analizie ekonomicznych losów absolwentów kierunku informatyka na polskich uczelniach nie było potrzeby obsługiwać obserwacji odstających. Wynika to głównie z charakteru danych oraz sposobu ich zbierania. Dane te są agregatami liczbowymi, takimi jak procent absolwentów w różnych kategoriach, mediany wynagrodzeń i inne miary podobne, które zostały zebrane na poziomie grupy absolwentów. Usunięcie takich obserwacji mogłoby zniekształcić rzeczywisty obraz sytuacji ekonomicznej absolwentów. Jednocześnie, po wstępnej analizie nie zauważyliśmy wyników, które można byloby uznać za nieprawidłowe- a odchylenia- zarówno te większe, jak i mniejsze, są w naszej analizie bardzo ważne i pokazują jak bardzo różnią się losy absolwentów po różnych uczelniach. Dlatego też zdecydowaliśmy się na pozostawienie danych w ich pierwotnej formie, bez dalszego przetwarzania w celu obsługi ewentualnych obserwacji odstających.
 
-### Wartości odstające
-W naszej analizie ekonomicznych losów absolwentów kierunku informatyka na polskich uczelniach nie było potrzeby obsługiwać obserwacji odstających. Wynika to głównie z charakteru danych oraz sposobu ich zbierania. Dane te są agregatami liczbowymi, takimi jak procent absolwentów w różnych kategoriach, mediany wynagrodzeń i inne miary podobne, które zostały zebrane na poziomie grupy absolwentów. Usunięcie takich obserwacji mogłoby zniekształcić rzeczywisty obraz sytuacji ekonomicznej absolwentów. Jednocześnie, po wstępnej analizie nie zauważyliśmy wyników, które można byloby uznać za nieprawidłowe- a odchylenia- zarówno te większe jak i mniejsze, są w naszej analizie bardzo ważne i pokazują jak bardzo różne są losy absolwentów po różnych uczelniach. Dlatego też zdecydowaliśmy się na pozostawienie danych w ich pierwotnej formie, bez dalszego przetwarzania w celu obsługi ewentualnych obserwacji odstających.
+# Opis metod
 
-### Analiza metodą TOPSIS
+## Analiza metodą TOPSIS
 Jako jedną z metod analizy danych wykorzystaliśmy TOPSIS (Technique for Order of Preference by Similarity to Ideal Solution) zaproponowaną przez Ching-Lai Hwang'a oraz Yoon'a w pracy "Multiple Attribute Decision Making: Methods and Applications" z 1981 roku. TOPSIS polega na utworzeniu wzorca jako zestaw najbardziej porządanych wartości cech oraz antywzorca jako przeciwieństwo reprezentowane przez wektor najmniej porządanych wartości. Po znormalizowaniu danych wejściowych i utworzeniu wzorca oraz antywzorca wynik analizy TOPSIS to iloraz odległości euklidesowej od antywzorca oraz sumy odległości od wzorca i antywzorca.
 
-## Wyniki
+### Wyniki
 
 
-## Podsumowanie
+# Podsumowanie
 Praca skupiła się na badaniu ekonomicznych losów absolwentów studiów informatycznych w Polsce. Uzyskane wyniki potwierdzają istotność wyboru programu studiów i uczelni dla przyszłych perspektyw zawodowych i zarobków absolwentów. Odniesienie do literatury wskazuje na zgodność uzyskanych wyników z wcześniejszymi badaniami w dziedzinie.
-
-## Bibliografia
+## Ocena realizacji celu
+## Odniesienie do pozycji z przeglądu literatury
+# Bibliografia
