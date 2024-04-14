@@ -1,24 +1,61 @@
 # Ekonomiczne losy absolwentów kierunku informatyka na polskich uczelniach
 
-## Autorzy
+## Spis treści
+
+1. [Tytuł pracy](#tytuł-pracy)
+2. [Autorzy](#autorzy)
+3. [Streszczenie](#streszczenie)
+4. [Słowa kluczowe](#Słowa-Kluczowe)
+5. [Wprowadzenie](#wprowadzenie)
+6. [Przedmiot badania]
+   - [Cel i zakres badania](#cel-i-zakres-badania)
+   - [Przegląd literatury](#przegląd-literatury)
+   - [Zmienne wybrane do analizy](#zmienne-wybrane-do-analizy)
+   - [Wstępna analiza danych](#wstępna-analiza-danych)
+     - [Statystyki opisowe](#statystyki-opisowe)
+     - [Podstawowa wizualizacja](#podstawowa-wizualizacja)
+     - [Braki danych](#braki-danych)
+     - [Obserwacje odstające](#obserwacje-odstające)
+7. [Opis metod](#opis-metod)
+   - [Wzory wraz z opisami oznaczeń](#wzory-wraz-z-opisami-oznaczeń)
+   - [Cytowanie pracy z metodą](#cytowanie-pracy-z-metodą)
+8. [Rezultaty](#rezultaty)
+   - [Tabele i/lub grafiki](#tabele-i/lub-grafiki)
+   - [Omówienie wyników](#omówienie-wyników)
+9. [Podsumowanie](#podsumowanie)
+   - [Ocena realizacji celu](#ocena-realizacji-celu)
+   - [Odniesienie do pozycji z przeglądu literatury](#odniesienie-do-pozycji-z-przeglądu-literatury)
+10. [Bibliografia](#bibliografia)
+    
+# Tytuł pracy
+Ekonomiczne losy absolwentów kierunku informatyka na polskich uczelniach
+# Autorzy
 - Katarzyna Dudek 217369
 - Jakub Czabok 217293
 - Karolina Dekajło 217482
 - Mateusz Chudowolski 217330
 
-## Streszczenie pracy
+# Streszczenie
 Poniższa praca przedstawia badanie ekonomicznych losów absolwentów studiów informatycznych w Polsce. Poprzez zastosowanie metod statystycznych porządkowania obiektów utworzony zostanie swego rodzaju ranking porównujący uśrednioną sytuację ekonomiczną po ukończeniu poszczególnych studiów.
 
-## Słowa kluczowe
+# Słowa kluczowe
 Porządkowanie obiektów, statystyki zarobków i zatrudnienia, ekonomiczne losy absolwentów
 
-## Wprowadzenie
+# Wprowadzenie
 Absolwenci kierunku informatyka odgrywają kluczową rolę w dzisiejszym społeczeństwie opartym na technologii. Jednakże, ich ekonomiczne losy po ukończeniu studiów mogą znacząco się różnić w zależności od wielu czynników. Niniejsza praca ma na celu zbadanie tych różnic oraz stworzenie rankingów porównujących sytuację ekonomiczną absolwentów poszczególnych uczelni i programów studiów informatycznych w Polsce.
 
-## Przedmiot badania
+# Przedmiot badania
 Celem badania jest zastosowanie metod statystycznych porządkowania obiektów w celu utworzenia rankingów porównujących uśrednione sytuacje ekonomiczne absolwentów studiów informatycznych w Polsce. Analiza obejmuje zmienne takie jak zarobki po ukończeniu studiów, stopień zatrudnienia, lokalizacja zatrudnienia oraz ewentualne dodatkowe kwalifikacje. W literaturze istnieją badania pokazujące, że wybór konkretnej uczelni czy specjalizacji może mieć istotny wpływ na karierę zawodową i zarobki absolwentów.
+## Cel i zakres badania
 
-### Zmienne wybrane do analizy:
+## Przegląd literatury
+
+
+
+
+
+
+## Zmienne wybrane do analizy:
 
 | Skrót zmiennej         | Opis                                                                                                                                       | Rodzaj zmiennej   |
 |------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|-------------------|
@@ -38,12 +75,15 @@ Celem badania jest zastosowanie metod statystycznych porządkowania obiektów w 
 
 - **Stymulanty:** Pozostałe zmienne, takie jak `P_ME_ZAR_STUD_P1`, `P_ME_ZAR_STUD_P4`, `P_ME_ZAR_ETAT_DOSW_P4` oraz `P_ME_ZAR_ETAT_NDOSW_P4`, odzwierciedlają różne aspekty sytuacji ekonomicznej absolwentów, takie jak poziom wynagrodzeń, czy mediany wynagrodzeń w zatrudnieniu etatowym z i bez doświadczenia pracy przed uzyskaniem dyplomu. Pozwalają one na zrozumienie różnic w zarobkach wśród absolwentów kierunku informatyka na polskich uczelniach. Aby wyniki były jak najbardzie obiektywne, rozdzieliliśmy czas (1 rok- zaraz po studiach i 4 lata- po zdobyciu pierwszych doświadczeń na rynku), co zmiejsza znacząco losowość analizy. Użyliśmy do analizy rówenież `P_IF_2st`, `P_IF_2st_ucz`, które mówią o kontynuacji nauki na wyższym poziomie na danej uczelni. Zakładamy, że im lepsza uczelnia, tym częściej jej studenci zdecydują się na kontynuacje tam studiów drugiego stopnia, zamiast podejmować te studia na innej uczelni.
 
-
-
-
-
-## Opis metod
-### Uzupełnienie pustych danych:
+### Wstępna analiza danych
+### Statystyki opisowe
+### Podstawowa wizualizacja
+### Braki danych
+Braki danych były ważnym problemem w analizie, który należało obsłużyć. Wszystkie uczelnie miały pełne dane dotyczące bezrobocia i procentu osób kontynujących studia 2. stopnia na tej samej uczelni. Niestety, nie dysponowaliśmy przy niektórych pozycjach informacjami odnośnie zarobków (zarówno rok jak i 4 lata po dyplomie). Pozycje, w których brakowało obu kolumn w danym roku po uzyskaniu dyplomu (1 lub 4) zarówno w medianie zarobków z tytułu o prace, jak i medianie zarobków ze wszystkich źródeł, były usuwane. Uważamy, że symulacja tak ważnych kolumn w naszej analizie nie byłaby wystarczająco obiektywna. Jeśli jednak mieliśmy dane odnośnie co najmniej jednej kolumny (patrząc osobno na rok 1. i rok 4.), symulowliśmy dane w kolumnie z tym samym rokiem po uzyskaniu dyplomu. Odpowiednio:
+1. Gdy brakowało danej w kolumnie 'P_ME_ZAR_STUD_P1', ale mieliśmy tą daną w kolumnie 'P_ME_ZAR_STUD_P4', mnożyliśmy wartość dla tego wiersza z kolumny 'P_ME_ZAR_STUD_P4' przez współczynnik przejścia między średnią ze wszystkich wartości z kolumny 'P_ME_ZAR_STUD_P1', a 'P_ME_ZAR_STUD_P4'
+2. Analogicznie w odwrotnym przypadku (gdy brakowało danej w kolumnie 'P_ME_ZAR_STUD_P4', ale mieliśmy tą daną w kolumnie 'P_ME_ZAR_STUD_P1')
+3. Gdy brakowało danej w kolumnie `P_ME_ZAR_ETAT_DOSW_P4`, ale mieliśmy tą daną w kolumnie `P_ME_ZAR_ETAT_NDOSW_P4`, mnożyliśmy wartość dla tego wiersza z kolumny `P_ME_ZAR_ETAT_NDOSW_P4` przez współczynnik przejścia między średnią ze wszystkich wartości z kolumny `P_ME_ZAR_ETAT_DOSW_P4`, a `P_ME_ZAR_ETAT_NDOSW_P4`.
+#### Dzialanie programu uzupełniającego puste dane:
 1. Program oblicza średnie wartości dla określonych kolumn, które są używane jako współczynniki w symulacji.
 2. Tworzy maski dla komórek, które zawierają brakujące dane w poszczególnych kolumnach.
 3. Na podstawie tych maski oraz wcześniej obliczonych średnich wartości, program przeprowadza mnożenie wartości w pustych komórkach przez odpowiednie współczynniki. Te współczynniki są stosowane proporcjonalnie do danych w innych kolumnach lub na podstawie innych czynników, które są istotne dla analizy.
@@ -70,6 +110,9 @@ Analogiczne operacje wykonywane są dla pozostałych kolumn i wartości.
 df.to_excel('uzupelnione.xlsx', index=False)
 ```
 Po uzupełnieniu pustych wartości, zapisujemy zmodyfikowane dane do nowego pliku Excel, który można wykorzystać do dalszych analiz.
+
+#### Obserwacje odstające
+## Opis metod
 
 ### Wartości odstające
 W naszej analizie ekonomicznych losów absolwentów kierunku informatyka na polskich uczelniach nie było potrzeby obsługiwać obserwacji odstających. Wynika to głównie z charakteru danych oraz sposobu ich zbierania. Dane te są agregatami liczbowymi, takimi jak procent absolwentów w różnych kategoriach, mediany wynagrodzeń i inne miary podobne, które zostały zebrane na poziomie grupy absolwentów. Usunięcie takich obserwacji mogłoby zniekształcić rzeczywisty obraz sytuacji ekonomicznej absolwentów. Jednocześnie, po wstępnej analizie nie zauważyliśmy wyników, które można byloby uznać za nieprawidłowe- a odchylenia- zarówno te większe jak i mniejsze, są w naszej analizie bardzo ważne i pokazują jak bardzo różne są losy absolwentów po różnych uczelniach. Dlatego też zdecydowaliśmy się na pozostawienie danych w ich pierwotnej formie, bez dalszego przetwarzania w celu obsługi ewentualnych obserwacji odstających.
