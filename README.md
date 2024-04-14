@@ -99,6 +99,31 @@ Metodologia ich analizy obejmuje takie czynniki jak:
 
 **Charakterystyka zmiennych użytych do analizy**
 
+***Podstawowe statystyki:***
+
+![image](https://github.com/KDudek1104/computer-science-ranking/assets/44409389/7c2650bf-641e-4934-9706-600d917403b1)
+
+
+***Rozkłady zmiennych:***
+![Rozkład zmiennej P_CZY_BEZR_P1](https://github.com/KDudek1104/computer-science-ranking/assets/44409389/d0873579-7c43-49ae-88e4-64b5aa0dab5b)
+
+![Rozkład zmiennej P_CZY_BEZR_P4](https://github.com/KDudek1104/computer-science-ranking/assets/44409389/c5fd8867-42f0-49b3-957f-576d58f82832)
+
+![Rozkład zmiennej P_ME_ZAR_STUD_P1](https://github.com/KDudek1104/computer-science-ranking/assets/44409389/fdfd3b2a-3938-45b7-8217-6c76f071dc3a)
+
+![Rozkład zmiennej P_ME_ZAR_STUD_P4](https://github.com/KDudek1104/computer-science-ranking/assets/44409389/81112174-20d6-470a-9ad4-11dc60ed4cba)
+
+![Rozkład zmiennej P_IF_2st](https://github.com/KDudek1104/computer-science-ranking/assets/44409389/0473e689-bac3-4834-8de5-e6856f380a0f)
+
+![Rozkład zmiennej P_IF_2st_ucz](https://github.com/KDudek1104/computer-science-ranking/assets/44409389/9265d54a-2f33-4a0d-bfa5-7ba5ff0daf42)
+
+![P_ME_ZAR_ETAT_DOSW_P4](https://github.com/KDudek1104/computer-science-ranking/assets/44409389/e7bc0ec6-4ce8-425f-af7e-de0085f471cb)
+
+![P_ME_ZAR_ETAT_NDOSW_P4](https://github.com/KDudek1104/computer-science-ranking/assets/44409389/6edce142-54b4-44bf-b1ad-80f84e12470e)
+
+
+***Dodatkowe cechy zmiennych:***
+
 Większość kierunków informatycznych w Polsce, przyjętych do analizy to kierunki stacjonarne:
 ![435740204_738431308495392_706943029595757031_n](https://github.com/KDudek1104/computer-science-ranking/assets/139448704/f32d62aa-36d6-431a-afed-493a29ae9ce3)
 
@@ -212,10 +237,6 @@ gdzie d_i- to odległość obiektu i od antywzorca
 	d_i+ to odległość obiektu i od wzorca
 
 
-Ranking 20 najlepszych kierunków informatycznych według metody TOPSIS:
-
-![436837674_1150883706325819_5692944060771722608_n](https://github.com/KDudek1104/computer-science-ranking/assets/139448704/5e63be08-a565-4509-8ad6-688a3a4dadd1)
-
 ### Analiza metodą Nowak
 
 W tej metodzie wynik jest średnią wartości po znormalizowaniu z uwzględnieniem tego, że wartości cech, które są destymulantami są ujemne.
@@ -232,9 +253,6 @@ m to liczba cech
 z_ij to wartość po znormalizowaniu cechy j obiektu i
 
 W przypadku naszej analizy ze względu na wykorzystanie destymulant w ich przypadku wartości należało odjąć, a przy pozostałych cechach można było bezpośrednio korzystać ze wzoru.
-
-Ranking 20 najlepszych kierunków informatycznych według metody Nowak:
-![435566753_970203021242280_8006101040277985573_n](https://github.com/KDudek1104/computer-science-ranking/assets/139448704/610be0c2-413e-4107-b7f1-0254f1a5eb03)
 
 ### Analiza metodą STRAHL
 Jedna z wykorzystanych metod do analizy jest ta zaproponowana przez D. Strahl, Propozycja konstrukcji
@@ -253,15 +271,14 @@ Aby otrzymać wartość unormowana dzielimy każdą poszczególna wartość w ko
 maksymalna dla tej kolumny.
 Następnie Aby otrzymać ostateczny wynik dla poszczególnych kierunków sumujemy unormowane
 wartości i dzieli przez ilość cech które porównujemy.
-Ranking 20 najlepszych kierunków informatycznych według metody D.Strahl:
-![435786763_3587488808157186_3437291051710121353_n](https://github.com/KDudek1104/computer-science-ranking/assets/139448704/7c53aad0-4d96-4671-b7e3-e9af74eeb29a)
 
 ### Analiza metodą SSW
 Wzór:
 ![438154441_1453719338911414_3317707286583713279_n](https://github.com/KDudek1104/computer-science-ranking/assets/139448704/a4c3fe98-637f-40d2-a1c5-9a84afbd1a97)
 
-Ranking 20 najlepszych kieronków informatycznych według SSW:
-![438204633_810091810999960_8622275920193850398_n (1)](https://github.com/KDudek1104/computer-science-ranking/assets/139448704/824338d9-a58e-40d5-9799-487fb7c8e654)
+
+# Wyniki
+Tak prezentuje się top 20 miejsc według kolejnych metod porządkowania liniowego:
 
 
 # Podsumowanie
@@ -292,5 +309,4 @@ Warto również zaznaczyć, że nasza analiza może być bardziej spersonalizowa
 2. https://en.wikipedia.org/wiki/TOPSIS
 3. Extension of TOPSIS for decision-making problems with interval data: Interval efficiency - G.R. Jahanshahloo, F. Hosseinzadeh Lotfi, A.R. Davoodi
 4. Multiple Attribute Decision Making: Methods and Applications - Ching-Lai Hwang, Yoon
-5. Problemy Rolnictwa Światowego tom 18 - Karol Kukuła, Lidia Luty
-6. Metoda unitaryzacji zerowanej na tle wybranych metod normowania cech diagnostycznych - Karol Kukułka
+5. Metoda unitaryzacji zerowanej na tle wybranych metod normowania cech diagnostycznych - Karol Kukułka
