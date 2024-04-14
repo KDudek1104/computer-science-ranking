@@ -105,7 +105,10 @@ Braki danych były ważnym problemem w analizie, który należało obsłużyć. 
 1. Gdy brakowało danej w kolumnie 'P_ME_ZAR_STUD_P1', ale mieliśmy tą daną w kolumnie 'P_ME_ZAR_STUD_P4', mnożyliśmy wartość dla tego wiersza z kolumny 'P_ME_ZAR_STUD_P4' przez współczynnik przejścia między średnią ze wszystkich wartości z kolumny 'P_ME_ZAR_STUD_P1', a 'P_ME_ZAR_STUD_P4'
 2. Analogicznie w odwrotnym przypadku (gdy brakowało danej w kolumnie 'P_ME_ZAR_STUD_P4', ale mieliśmy tą daną w kolumnie 'P_ME_ZAR_STUD_P1')
 3. Gdy brakowało danej w kolumnie `P_ME_ZAR_ETAT_DOSW_P4`, ale mieliśmy tą daną w kolumnie `P_ME_ZAR_ETAT_NDOSW_P4`, mnożyliśmy wartość dla tego wiersza z kolumny `P_ME_ZAR_ETAT_NDOSW_P4` przez współczynnik przejścia między średnią ze wszystkich wartości z kolumny `P_ME_ZAR_ETAT_DOSW_P4`, a `P_ME_ZAR_ETAT_NDOSW_P4`.
-4. 
+4. Analogicznie w odwrotnym przypadku (gdy brakowało danej w kolumnie `P_ME_ZAR_ETAT_NDOSW_P4`, ale mieliśmy tą daną w kolumnie `P_ME_ZAR_ETAT_DOSW_P4`)
+
+W kolumnach dotyczących procentu osób podejmujących studia drugiego stopnia, w niektórych wierszach wartość była równa 0. Takie przypadki występują, gdy dana uczelnia nie oferuje programów studiów magisterskich z danego kierunku, co może wynikać z różnych czynników, takich jak brak odpowiednich zasobów, niska liczba zainteresowanych studentów lub specyfika profilu uczelni. Uważamy jednak, że nie wymaga to zmiany w naszych obliczeniach, ponieważ brak studiów magisterskich jest ogromną wadą i przeszkodą dla studentów chcących kontynuować studia.
+
 #### Dzialanie programu uzupełniającego puste dane:
 1. Program oblicza średnie wartości dla określonych kolumn, które są używane jako współczynniki w symulacji.
 2. Tworzy maski dla komórek, które zawierają brakujące dane w poszczególnych kolumnach.
