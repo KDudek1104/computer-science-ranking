@@ -141,9 +141,6 @@ W naszej analizie ekonomicznych losów absolwentów kierunku informatyka na pols
 
 # Opis metod
 
-### Analiza metodą TOPSIS
-Jako jedną z metod analizy danych wykorzystaliśmy TOPSIS (Technique for Order of Preference by Similarity to Ideal Solution) zaproponowaną przez Ching-Lai Hwang'a oraz Yoon'a w pracy "Multiple Attribute Decision Making: Methods and Applications" z 1981 roku. TOPSIS polega na utworzeniu wzorca jako zestaw najbardziej porządanych wartości cech oraz antywzorca jako przeciwieństwo reprezentowane przez wektor najmniej porządanych wartości. Po znormalizowaniu danych wejściowych i utworzeniu wzorca oraz antywzorca wynik analizy TOPSIS to iloraz odległości euklidesowej od antywzorca oraz sumy odległości od wzorca i antywzorca.
-
 ### Analiza metodą Hellwiga
 W ramach naszej analizy danych skorzystaliśmy z metody Hellwiga, która została opracowana przez Leo A. Hellwiga w 1972 roku. Jest to jedna z najczęściej stosowanych technik analizy danych, zwłaszcza w kontekście porządkowania liniowego. Metoda ta bazuje na minimalizacji kryteriów skrajnych, co umożliwia wyłonienie istotnych cech lub zmiennych decyzyjnych. Poprzez dokładne porównanie poszczególnych zmiennych, analiza przy użyciu metody Hellwiga pozwala na ich uporządkowanie z uwzględnieniem ich znaczenia w kontekście badanych danych.
 
@@ -212,7 +209,6 @@ Praca skupiła się na badaniu ekonomicznych losów absolwentów studiów inform
 ## Odniesienie do pozycji z przeglądu literatury
 # Bibliografia
 1. Kukuła, Karol, and Lidia Luty. “O Wyborze Metody Porządkowania Liniowego do Oceny Gospodarki odpadami W polsce W Ujęciu Przestrzennym.” Zeszyty Naukowe SGGW w Warszawie - Problemy Rolnictwa Światowego, vol. 18, no. 2, 30 June 2018, pp. 183–192, https://doi.org/10.22630/prs.2018.18.2.46. 
-2. Problemy Rolnictwa Światowego tom 18 - Karol Kukuła, Lidia Luty
-3. https://en.wikipedia.org/wiki/TOPSIS
-4. Extension of TOPSIS for decision-making problems with interval data: Interval efficiency - G.R. Jahanshahloo, F. Hosseinzadeh Lotfi, A.R. Davoodi
-5. Multiple Attribute Decision Making: Methods and Applications - Ching-Lai Hwang, Yoon
+2. https://en.wikipedia.org/wiki/TOPSIS
+3. Extension of TOPSIS for decision-making problems with interval data: Interval efficiency - G.R. Jahanshahloo, F. Hosseinzadeh Lotfi, A.R. Davoodi
+4. Multiple Attribute Decision Making: Methods and Applications - Ching-Lai Hwang, Yoon
