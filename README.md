@@ -147,3 +147,4 @@ Praca skupiła się na badaniu ekonomicznych losów absolwentów studiów inform
 ## Ocena realizacji celu
 ## Odniesienie do pozycji z przeglądu literatury
 # Bibliografia
+Kukuła, Karol, and Lidia Luty. “O Wyborze Metody Porządkowania Liniowego do Oceny Gospodarki odpadami W polsce W Ujęciu Przestrzennym.” Zeszyty Naukowe SGGW w Warszawie - Problemy Rolnictwa Światowego, vol. 18, no. 2, 30 June 2018, pp. 183–192, https://doi.org/10.22630/prs.2018.18.2.46. 
