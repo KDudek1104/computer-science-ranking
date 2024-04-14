@@ -198,6 +198,28 @@ Ranking 20 najlepszych kierunków informatycznych według metody TOPSIS:
 
 ![436837674_1150883706325819_5692944060771722608_n](https://github.com/KDudek1104/computer-science-ranking/assets/139448704/5e63be08-a565-4509-8ad6-688a3a4dadd1)
 
+### Analiza metodą Nowak
+
+W tej metodzie wynik jest średnią wartości po znormalizowaniu z uwzględnieniem tego, że wartości cech, które są destymulantami są ujemne.
+
+Normalizacja danych w metodzie Nowak polega na podzieleniu wartości każdej cechy każdego obiektu przez średnią wartość danej cechy dla wszystkich obiektów.
+
+Następne obliczenia wykonujemy zgodnie z poniższym wzorem:
+
+![436088115_2066226290426594_7444667718072887934_n](https://github.com/KDudek1104/computer-science-ranking/assets/139448704/8c431add-a542-41a0-b306-bcd95091ab4c)
+
+
+gdzie Q oznacza wynik końcowy
+m to liczba cech
+z_ij to wartość po znormalizowaniu cechy j obiektu i
+
+W przypadku naszej analizy ze względu na wykorzystanie destymulant w ich przypadku wartości należało odjąć, a przy pozostałych cechach można było bezpośrednio korzystać ze wzoru.
+
+Ranking 20 najlepszych kierunków informatycznych według metody Nowak:
+![435566753_970203021242280_8006101040277985573_n](https://github.com/KDudek1104/computer-science-ranking/assets/139448704/610be0c2-413e-4107-b7f1-0254f1a5eb03)
+
+
+
 
 
 ### Wyniki
