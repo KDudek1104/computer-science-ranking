@@ -74,6 +74,9 @@ Po uzupełnieniu pustych wartości, zapisujemy zmodyfikowane dane do nowego plik
 ### Wartości odstające
 W naszej analizie ekonomicznych losów absolwentów kierunku informatyka na polskich uczelniach nie było potrzeby obsługiwać obserwacji odstających. Wynika to głównie z charakteru danych oraz sposobu ich zbierania. Dane te są agregatami liczbowymi, takimi jak procent absolwentów w różnych kategoriach, mediany wynagrodzeń i inne miary podobne, które zostały zebrane na poziomie grupy absolwentów. Usunięcie takich obserwacji mogłoby zniekształcić rzeczywisty obraz sytuacji ekonomicznej absolwentów. Jednocześnie, po wstępnej analizie nie zauważyliśmy wyników, które można byloby uznać za nieprawidłowe- a odchylenia- zarówno te większe jak i mniejsze, są w naszej analizie bardzo ważne i pokazują jak bardzo różne są losy absolwentów po różnych uczelniach. Dlatego też zdecydowaliśmy się na pozostawienie danych w ich pierwotnej formie, bez dalszego przetwarzania w celu obsługi ewentualnych obserwacji odstających.
 
+### Analiza metodą TOPSIS
+Jako jedną z metod analizy danych wykorzystaliśmy TOPSIS (Technique for Order of Preference by Similarity to Ideal Solution) zaproponowaną przez Ching-Lai Hwang'a oraz Yoon'a w pracy "Multiple Attribute Decision Making: Methods and Applications" z 1981 roku. TOPSIS polega na utworzeniu wzorca jako zestaw najbardziej porządanych wartości cech oraz antywzorca jako przeciwieństwo reprezentowane przez wektor najmniej porządanych wartości. Po znormalizowaniu danych wejściowych i utworzeniu wzorca oraz antywzorca wynik analizy TOPSIS to iloraz odległości euklidesowej od antywzorca oraz sumy odległości od wzorca i antywzorca.
+
 ## Wyniki
 
 
