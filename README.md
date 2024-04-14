@@ -218,7 +218,25 @@ W przypadku naszej analizy ze względu na wykorzystanie destymulant w ich przypa
 Ranking 20 najlepszych kierunków informatycznych według metody Nowak:
 ![435566753_970203021242280_8006101040277985573_n](https://github.com/KDudek1104/computer-science-ranking/assets/139448704/610be0c2-413e-4107-b7f1-0254f1a5eb03)
 
+### Analiza metodą STRAHL
+Jedna z wykorzystanych metod do analizy jest ta zaproponowana przez D. Strahl, Propozycja konstrukcji
+miary syntetycznej, „Przegląd Statystyczny” z 1978 r.
+Wzory:
 
+![436552681_359291277113938_9039028363359408260_n](https://github.com/KDudek1104/computer-science-ranking/assets/139448704/b7518344-6020-4be4-9fd5-745d0646e342)
+
+gdzie:
+xji
+- wartość j-tej cechy dla i-tego kierunku i wydziału
+zij
+- to wartość unormowana dla j-tej cechy dla i-tego kierunku i wydziału
+Q – Ostateczny wynik analizy D. Strahl dla określonego kierunku informatycznego
+Aby otrzymać wartość unormowana dzielimy każdą poszczególna wartość w kolumnie przez wartość
+maksymalna dla tej kolumny.
+Następnie Aby otrzymać ostateczny wynik dla poszczególnych kierunków sumujemy unormowane
+wartości i dzieli przez ilość cech które porównujemy.
+Ranking 20 najlepszych kierunków informatycznych według metody D.Strahl:
+![435786763_3587488808157186_3437291051710121353_n](https://github.com/KDudek1104/computer-science-ranking/assets/139448704/7c53aad0-4d96-4671-b7e3-e9af74eeb29a)
 
 
 
@@ -234,3 +252,5 @@ Praca skupiła się na badaniu ekonomicznych losów absolwentów studiów inform
 2. https://en.wikipedia.org/wiki/TOPSIS
 3. Extension of TOPSIS for decision-making problems with interval data: Interval efficiency - G.R. Jahanshahloo, F. Hosseinzadeh Lotfi, A.R. Davoodi
 4. Multiple Attribute Decision Making: Methods and Applications - Ching-Lai Hwang, Yoon
+5. Problemy Rolnictwa Światowego tom 18 - Karol Kukuła, Lidia Luty
+6. Metoda unitaryzacji zerowanej na tle wybranych metod normowania cech diagnostycznych - Karol Kukułka
