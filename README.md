@@ -285,8 +285,29 @@ Wzór:
 Tak prezentuje się top 20 miejsc według kolejnych metod porządkowania liniowego:
 
 
+![top20hellwig](https://github.com/KDudek1104/computer-science-ranking/assets/44409389/4750b411-bf3e-432c-80f1-896773862589)
+![top20muz](https://github.com/KDudek1104/computer-science-ranking/assets/44409389/c905bde7-faa0-4c56-8523-caa1122db3de)
+![top20topsis](https://github.com/KDudek1104/computer-science-ranking/assets/44409389/bf01d524-d0f4-42b6-aed7-a4b37796110f)
+![top20nowak](https://github.com/KDudek1104/computer-science-ranking/assets/44409389/898591cc-603a-41c2-a763-cc2c85518ea6)
+![top20ssw](https://github.com/KDudek1104/computer-science-ranking/assets/44409389/8ed22280-5dad-416d-9ae9-ad4dc8787e45)
+![top20strahl](https://github.com/KDudek1104/computer-science-ranking/assets/44409389/ba9c7b94-e265-4d6d-9daa-f3b6bae5054c)
 
-![image](https://github.com/KDudek1104/computer-science-ranking/assets/44409389/06a26ef6-0e04-43f2-9a20-e21bd1f2bcff)
+
+Oraz top 20 miejsc według średniej wartości RANK każdej z metod:
+
+![image](https://github.com/KDudek1104/computer-science-ranking/assets/44409389/9d3cea24-1689-4914-b8d4-6d2e94d37fd0)
+
+
+
+Oraz top 20 miejsc według średniej ze wszystkich cech syntetycznych Qi, które
+
+![image](https://github.com/KDudek1104/computer-science-ranking/assets/44409389/8defc0fd-3968-4e0a-a005-4fcdb2c97134)
+
+
+Macierz korelacji - współczynnik korelacji Pearsona
+
+![image](https://github.com/KDudek1104/computer-science-ranking/assets/44409389/a924646a-7332-4a79-9614-e8def9ed368e)
+
 
 
 # Podsumowanie
