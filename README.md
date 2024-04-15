@@ -280,12 +280,9 @@ Wzór:
 # Wyniki
 Tak prezentuje się top 20 miejsc według kolejnych metod porządkowania liniowego:
 
-![top20hellwig](https://github.com/KDudek1104/computer-science-ranking/assets/44409389/0cf2c1e9-5be5-434b-a576-ceab51a3121d)
-![top20muz](https://github.com/KDudek1104/computer-science-ranking/assets/44409389/3fbc46cb-bbf1-485c-8d5a-6280b29e842e)
-![top20topsis](https://github.com/KDudek1104/computer-science-ranking/assets/44409389/1d6bb208-d713-47ac-96ab-e4e574a03dc6)
-![top20nowak](https://github.com/KDudek1104/computer-science-ranking/assets/44409389/168749b8-e5b4-4746-86ed-5820c9024026)
-![top20ssw](https://github.com/KDudek1104/computer-science-ranking/assets/44409389/1cfe7161-dd32-4cd9-b6f8-7863a248dd73)
-![top20strahl](https://github.com/KDudek1104/computer-science-ranking/assets/44409389/b06f41c1-ec54-4833-9b79-20a824fe96aa)
+
+
+![image](https://github.com/KDudek1104/computer-science-ranking/assets/44409389/06a26ef6-0e04-43f2-9a20-e21bd1f2bcff)
 
 
 # Podsumowanie
