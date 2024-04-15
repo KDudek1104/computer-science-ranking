@@ -313,8 +313,9 @@ Różnice między analizą w rankingu "Perspektywy" a naszą analizą obejmują:
 Warto również zaznaczyć, że nasza analiza może być bardziej spersonalizowana, pozwalając na dostosowanie metodologii do konkretnych potrzeb i celów badawczych.
 
 # Bibliografia
-1. Kukuła, Karol, and Lidia Luty. “O Wyborze Metody Porządkowania Liniowego do Oceny Gospodarki odpadami W polsce W Ujęciu Przestrzennym.” Zeszyty Naukowe SGGW w Warszawie - Problemy Rolnictwa Światowego, vol. 18, no. 2, 30 June 2018, pp. 183–192, https://doi.org/10.22630/prs.2018.18.2.46. 
-2. https://en.wikipedia.org/wiki/TOPSIS
-3. Extension of TOPSIS for decision-making problems with interval data: Interval efficiency - G.R. Jahanshahloo, F. Hosseinzadeh Lotfi, A.R. Davoodi
-4. Multiple Attribute Decision Making: Methods and Applications - Ching-Lai Hwang, Yoon
-5. Metoda unitaryzacji zerowanej na tle wybranych metod normowania cech diagnostycznych - Karol Kukułka
+1. Kukuła, Karol, and Lidia Luty. “O Wyborze Metody Porządkowania Liniowego do Oceny Gospodarki odpadami W polsce W Ujęciu Przestrzennym.” Zeszyty Naukowe SGGW w Warszawie - Problemy Rolnictwa Światowego, vol. 18, no. 2, 30 June 2018, pp. 183–192, https://doi.org/10.22630/prs.2018.18.2.46.
+2. Bąk, Andrzej. “Porządkowanie Liniowe Obiektów Metodą Hellwiga I Topsis – Analiza Porównawcza / Linear Ordering of Objects Using Hellwig and Topsis Methods – a Comparative Analysis.” Prace Naukowe Uniwersytetu Ekonomicznego we Wrocławiu, no. 426 (2016): 22–31. https://doi.org/10.15611/pn.2016.426.02. 
+3. https://en.wikipedia.org/wiki/TOPSIS
+4. Extension of TOPSIS for decision-making problems with interval data: Interval efficiency - G.R. Jahanshahloo, F. Hosseinzadeh Lotfi, A.R. Davoodi
+5. Multiple Attribute Decision Making: Methods and Applications - Ching-Lai Hwang, Yoon
+6. Metoda unitaryzacji zerowanej na tle wybranych metod normowania cech diagnostycznych - Karol Kukułka
