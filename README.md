@@ -210,13 +210,33 @@ W naszej analizie ekonomicznych losów absolwentów kierunku informatyka na pols
 ### Analiza metodą Hellwiga
 W ramach naszej analizy danych skorzystaliśmy z metody Hellwiga, która została opracowana przez Leo A. Hellwiga w 1972 roku. Jest to jedna z najczęściej stosowanych technik analizy danych, zwłaszcza w kontekście porządkowania liniowego. Metoda ta bazuje na minimalizacji kryteriów skrajnych, co umożliwia wyłonienie istotnych cech lub zmiennych decyzyjnych. Poprzez dokładne porównanie poszczególnych zmiennych, analiza przy użyciu metody Hellwiga pozwala na ich uporządkowanie z uwzględnieniem ich znaczenia w kontekście badanych danych.
 
-Wzór na wartość cechy syntetycznej pochodzący z artykułu: Kukuła, K., Luty, L. (2018) “O Wyborze Metody Porządkowania Liniowego do Oceny Gospodarki odpadami W polsce W Ujęciu Przestrzennym.” Zeszyty Naukowe SGGW w Warszawie - Problemy Rolnictwa Światowego, vol. 18, no. 2: 183–192
+Metoda polega na normalizacji danych za pomocą tego wzoru:
 
-![image](https://github.com/KDudek1104/computer-science-ranking/assets/44409389/833d406a-cb2c-476c-82ee-46edb8ea537e)
+![image](https://github.com/KDudek1104/computer-science-ranking/assets/44409389/d9a19821-57c2-4bb1-ba78-6d26da8e991c)
 
-Pozostałe wzory wykorzystane w analizie tą metodą zaczerpnięte z tego samego artykułu co poprzedni wzór:
+gdzie:
+- *x<sub>ij</sub>* to obserwacja *j*-tej zmiennej dla obiektu *i*,
+- *x̄<sub>ij</sub>* to średnia arytmetyczna obserwacji *j*-tej zmiennej,
+- *s<sub>j</sub>* to odchylenie standardowe obserwacji *j*-tej
 
-![image](https://github.com/KDudek1104/computer-science-ranking/assets/44409389/75a3fda1-3f04-4e43-aa58-0338c25ec1a6)
+Następnie oblicza się wsółrzędne wzorca:
+
+![image](https://github.com/KDudek1104/computer-science-ranking/assets/44409389/303ed1ba-5b40-4456-a8fc-c098a7014b3b)
+
+Oraz oblicza odległości obiektów od wzorca korzystając z wzoru:
+
+![image](https://github.com/KDudek1104/computer-science-ranking/assets/44409389/fbac6a17-a551-49e5-8454-c8b3c4871b08)
+
+
+Cecha syntetyczna obliczana jest w dany sposób:
+
+![image](https://github.com/KDudek1104/computer-science-ranking/assets/44409389/77b4b6ca-6834-45b9-9fd2-c902867f5601)
+
+![image](https://github.com/KDudek1104/computer-science-ranking/assets/44409389/074f121d-f4ed-4e2f-b069-3d9f4356cce2)
+
+![image](https://github.com/KDudek1104/computer-science-ranking/assets/44409389/e0d7855e-b61d-4ee6-9728-843f4f8da119)
+
+![image](https://github.com/KDudek1104/computer-science-ranking/assets/44409389/4277b3c0-e55a-42c4-9ccb-da4d062152af)
 
 ### Analiza metodą MUZ
 W naszym badaniu danych wykorzystaliśmy Metodę Ujednoliconego Zmniejszania (MUZ) do uporządkowania liniowego danych. MUZ, będąca techniką minimalizacji kryteriów skrajnych, umożliwia wyodrębnienie kluczowych cech lub zmiennych decyzyjnych. Poprzez dokładne porównanie poszczególnych zmiennych, analiza za pomocą MUZ pozwoliła nam na ich hierarchiczne uporządkowanie, uwzględniając ich istotność w badanym kontekście.
