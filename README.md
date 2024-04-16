@@ -283,7 +283,7 @@ W przypadku naszej analizy ze względu na wykorzystanie destymulant, w ich przyp
 
 Jedną z wykorzystanych metod do analizy jest ta zaproponowana w pracy: Strahl, D. (1978), "Propozycja konstrukcji miary syntetycznej" Przegląd Statystyczny
 
-Wzory:
+Wykorzystane wzory zaczerpnięte z artykułu Kukuła, K., Luty, L. (2018) “O Wyborze Metody Porządkowania Liniowego do Oceny Gospodarki odpadami W polsce W Ujęciu Przestrzennym.” Zeszyty Naukowe SGGW w Warszawie - Problemy Rolnictwa Światowego, vol. 18, no. 2: 183–192:
 
 ![436552681_359291277113938_9039028363359408260_n](https://github.com/KDudek1104/computer-science-ranking/assets/139448704/b7518344-6020-4be4-9fd5-745d0646e342)
 
@@ -300,7 +300,9 @@ wartości i dzielimy przez ilość cech, które porównujemy.
 
 
 ### Analiza metodą SSW
-Wzór:
+
+Analiza została wykonana na podstawie wzorów wykorzystanych w pracy Kukuła, K., Luty, L. (2018) “O Wyborze Metody Porządkowania Liniowego do Oceny Gospodarki odpadami W polsce W Ujęciu Przestrzennym.” Zeszyty Naukowe SGGW w Warszawie - Problemy Rolnictwa Światowego, vol. 18, no. 2: 183–192
+
 ![438154441_1453719338911414_3317707286583713279_n](https://github.com/KDudek1104/computer-science-ranking/assets/139448704/a4c3fe98-637f-40d2-a1c5-9a84afbd1a97)
 
 # Wyniki
