@@ -209,9 +209,10 @@ Wzory:
 ![image](https://github.com/KDudek1104/computer-science-ranking/assets/44409389/65840d9c-007d-425b-9c6d-4c9dbadd5015)
 
 ### Analiza metodą TOPSIS
-Jako jedną z metod analizy danych wykorzystaliśmy TOPSIS (Technique for Order of Preference by Similarity to Ideal Solution) zaproponowaną przez Ching-Lai Hwang'a oraz Yoon'a w pracy "Multiple Attribute Decision Making: Methods and Applications" z 1981 roku. TOPSIS polega na utworzeniu wzorca jako zestaw najbardziej pożądanych wartości cech oraz antywzorca jako przeciwieństwo reprezentowane przez wektor najmniej pożądanych wartości. Po znormalizowaniu danych wejściowych i utworzeniu wzorca oraz antywzorca wynik analizy TOPSIS to iloraz odległości euklidesowej od antywzorca oraz sumy odległości od wzorca i antywzorca.
+Jako jedną z metod analizy danych wykorzystaliśmy TOPSIS (Technique for Order of Preference by Similarity to Ideal Solution) zaproponowaną w pracy Ching-Lai Hwang, K., Yoon (1981) "Multiple Attribute Decision Making: Methods and Applications" Lecture Notes in Economics and Mathematical Systems vol. 186. 
+TOPSIS polega na utworzeniu wzorca jako zestaw najbardziej pożądanych wartości cech oraz antywzorca jako przeciwieństwo reprezentowane przez wektor najmniej pożądanych wartości. Po znormalizowaniu danych wejściowych i utworzeniu wzorca oraz antywzorca wynik analizy TOPSIS to iloraz odległości euklidesowej od antywzorca oraz sumy odległości od wzorca i antywzorca.
 
-W tej metodzie normalizację danych przeprowadza się stosując poniższy wzór:
+W tej metodzie normalizację danych przeprowadza się stosując poniższy wzór zaczerpnięty z pracy G., R.,  Jahanshahloo, F., Hosseinzadeh Lotfi, A., R., Davoodi (2009) "Extension of TOPSIS for decision-making problems with interval data: Interval efficiency" Mathematical and Computer Modelling, Volume 49, Issues 5–6: 1137-1142:
 
 ![435608291_1096683048221400_8963528647939478991_n](https://github.com/KDudek1104/computer-science-ranking/assets/139448704/0b4a4ae0-29d9-4dac-9111-37026587cc52)
 
@@ -226,7 +227,7 @@ gdzie:
 W naszym przypadku ze względu na zastosowanie zarówno stymulant jak i destymulant wektor wzorca składa się z wartości maksymalnych każdej cechy po znormalizowaniu będącej stymulantem i minimalnych wartości dla destymulantów, natomiast wektor antywzorca będzie składał się z maksymalnych wartości dla destymulantów a minimalnych dla destymulantów. 
 
 
-Odległość od wzorca i antywzorca to odpowiednio *d<sub>i+</sub>* oraz *d<sub>i-</sub>* według poniższych wzorów:
+Odległość od wzorca i antywzorca to odpowiednio *d<sub>i+</sub>* oraz *d<sub>i-</sub>* według poniższych wzorów pochodzących z artykułu: Kukuła, K., Luty, L. (2018) “O Wyborze Metody Porządkowania Liniowego do Oceny Gospodarki odpadami W polsce W Ujęciu Przestrzennym.” Zeszyty Naukowe SGGW w Warszawie - Problemy Rolnictwa Światowego, vol. 18, no. 2: 183–192
 
 ![435657575_1101631484292102_8527506804191328804_n](https://github.com/KDudek1104/computer-science-ranking/assets/139448704/23b47b54-43b7-4117-bd3c-2884434c0b73)
 
@@ -236,7 +237,7 @@ gdzie:
 - *z<sub>ij</sub>* to wartość cechy j dla obiektu i po znormalizowaniu
 - *m* to liczba cech dla każdego obiektu
 
-Ostateczny wynik analizy TOPSIS to wartość *Q* dla określonego obiektu, która jest wyrażona poniższym ilorazem:
+Ostateczny wynik analizy TOPSIS to wartość *Q* dla określonego obiektu, która jest wyrażona poniższym ilorazem zaczerpniętym z tej samej pracy co wzory na odległości od wzorca i antywzorca:
 
 ![436578556_1778419016002811_9064331869705549827_n](https://github.com/KDudek1104/computer-science-ranking/assets/139448704/935e0e62-d6e4-4aa7-9a05-89f2806727fe)
 
@@ -252,7 +253,8 @@ W tej metodzie wynik jest średnią wartości po znormalizowaniu z uwzględnieni
 
 Normalizacja danych w metodzie Nowak polega na podzieleniu wartości każdej cechy każdego obiektu przez średnią wartość danej cechy dla wszystkich obiektów.
 
-Następne obliczenia wykonujemy zgodnie z poniższym wzorem:
+Następne obliczenia wykonujemy zgodnie z poniższym wzorem pochodzącym z pracy: Kukuła, K., Luty, L. (2018) “O Wyborze Metody Porządkowania Liniowego do Oceny Gospodarki odpadami W polsce W Ujęciu Przestrzennym.” Zeszyty Naukowe SGGW w Warszawie - Problemy Rolnictwa Światowego, vol. 18, no. 2: 183–192
+
 
 ![436088115_2066226290426594_7444667718072887934_n](https://github.com/KDudek1104/computer-science-ranking/assets/139448704/8c431add-a542-41a0-b306-bcd95091ab4c)
 
