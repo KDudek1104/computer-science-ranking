@@ -40,9 +40,12 @@ Badanie perspektyw zawodowych absolwentów kierunku informatyka na polskich ucze
 </div>
 
 # Autorzy
-Katarzyna Dudek 217369
+Katarzyna Dudek 217369 
+
 Jakub Czabok 217293
+
 Karolina Dekajło 217482
+
 Mateusz Chudowolski 217330
 
 
