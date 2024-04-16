@@ -195,19 +195,31 @@ W naszej analizie ekonomicznych losów absolwentów kierunku informatyka na pols
 ### Analiza metodą Hellwiga
 W ramach naszej analizy danych skorzystaliśmy z metody Hellwiga, która została opracowana przez Leo A. Hellwiga w 1972 roku. Jest to jedna z najczęściej stosowanych technik analizy danych, zwłaszcza w kontekście porządkowania liniowego. Metoda ta bazuje na minimalizacji kryteriów skrajnych, co umożliwia wyłonienie istotnych cech lub zmiennych decyzyjnych. Poprzez dokładne porównanie poszczególnych zmiennych, analiza przy użyciu metody Hellwiga pozwala na ich uporządkowanie z uwzględnieniem ich znaczenia w kontekście badanych danych.
 
-Cecha syntetyczna:
+Wzór na wartość cechy syntetycznej pochodzący z artykułu: Kukuła, K., Luty, L. (2018) “O Wyborze Metody Porządkowania Liniowego do Oceny Gospodarki odpadami W polsce W Ujęciu Przestrzennym.” Zeszyty Naukowe SGGW w Warszawie - Problemy Rolnictwa Światowego, vol. 18, no. 2: 183–192
+
 ![image](https://github.com/KDudek1104/computer-science-ranking/assets/44409389/833d406a-cb2c-476c-82ee-46edb8ea537e)
 
-Wzory:
+Pozostałe wzory wykorzystane w analizie tą metodą zaczerpnięte z tego samego artykułu co poprzedni wzór:
+
 ![image](https://github.com/KDudek1104/computer-science-ranking/assets/44409389/75a3fda1-3f04-4e43-aa58-0338c25ec1a6)
 
 ### Analiza metodą MUZ
 W naszym badaniu danych wykorzystaliśmy Metodę Ujednoliconego Zmniejszania (MUZ) do uporządkowania liniowego danych. MUZ, będąca techniką minimalizacji kryteriów skrajnych, umożliwia wyodrębnienie kluczowych cech lub zmiennych decyzyjnych. Poprzez dokładne porównanie poszczególnych zmiennych, analiza za pomocą MUZ pozwoliła nam na ich hierarchiczne uporządkowanie, uwzględniając ich istotność w badanym kontekście.
 
-Cecha syntetyczna:
+Wzór na wartość cechy syntetycznej pochodzący z artykułu: Kukuła, K., Luty, L. (2018) “O Wyborze Metody Porządkowania Liniowego do Oceny Gospodarki odpadami W polsce W Ujęciu Przestrzennym.” Zeszyty Naukowe SGGW w Warszawie - Problemy Rolnictwa Światowego, vol. 18, no. 2: 183–192
+
 ![image](https://github.com/KDudek1104/computer-science-ranking/assets/44409389/3cd5c0ed-3736-4d67-819e-f2444edc4c3f)
 
-Wzory:
+gdzie:
+
+- *Q<sub>i</sub>* to wartość cechy syntetycznej dla obiektu *i* 
+- *x<sub>ij</sub>* to nominalna wartość cechy *j* dla obiektu *i*,
+- *m* to liczba obiektów,
+- *n* to liczba cech dla każdego obiektu.
+
+  
+Pozostałe wzory wykorzystane w analizie tą metodą zaczerpnięte z tego samego artykułu co poprzedni wzór:
+
 ![image](https://github.com/KDudek1104/computer-science-ranking/assets/44409389/65840d9c-007d-425b-9c6d-4c9dbadd5015)
 
 ### Analiza metodą TOPSIS
