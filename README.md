@@ -79,7 +79,8 @@ Metodologia ich analizy obejmuje takie czynniki jak:
 5. **Potencjał naukowy:** Liczba publikacji, cytowalność, wskaźnik FWCI, FWVI oraz obecność publikacji w top 10% najczęściej cytowanych czasopismach.
 6. **Umiędzynarodowienie:** Udział publikacji we współpracy zagranicznej oraz liczba studentów obcokrajowców.
 
-Pozostałymi pracami, na które warto zwrócić uwagę są te, w których wykorzystywaną są wspólne metody analizy statystycznej.
+Pozostałymi pracami, na które warto zwrócić uwagę są te, w których wykorzystywaną są wspólne metody analizy statystycznej. Każda z zastosowanych w tej pracy metod została wykorzystana również w pracy Kukuła, K., Luty, L. (2018) “O Wyborze Metody Porządkowania Liniowego do Oceny Gospodarki odpadami W polsce W Ujęciu Przestrzennym.” Zeszyty Naukowe SGGW w Warszawie - Problemy Rolnictwa Światowego, vol. 18, no. 2: 183–192. W tym artykule autorzy przedstawili techniki wyboru metody porządkowania liniowego obiektów ze względu na poziom zjawiska złożonego jakim jest stan gospodarki odpadami w województwach Polski. 
+
 
 
 
