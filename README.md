@@ -361,9 +361,9 @@ Różnice między analizą w rankingu "Perspektywy" a naszą analizą obejmują:
 Warto również zaznaczyć, że nasza analiza może być bardziej spersonalizowana, pozwalając na dostosowanie metodologii do konkretnych potrzeb i celów badawczych.
 
 # Bibliografia
-1. Kukuła, K., Luty, L. (2018) “O Wyborze Metody Porządkowania Liniowego do Oceny Gospodarki odpadami W polsce W Ujęciu Przestrzennym.” Zeszyty Naukowe SGGW w Warszawie - Problemy Rolnictwa Światowego, vol. 18, no. 2: 183–192
-2. Bąk, A. (2016) “Porządkowanie Liniowe Obiektów Metodą Hellwiga I Topsis – Analiza Porównawcza / Linear Ordering of Objects Using Hellwig and Topsis Methods – a Comparative Analysis.” Prace Naukowe Uniwersytetu Ekonomicznego we Wrocławiu, no. 426: 22–31. 
+1. Bąk, A. (2016) “Porządkowanie Liniowe Obiektów Metodą Hellwiga I Topsis – Analiza Porównawcza / Linear Ordering of Objects Using Hellwig and Topsis Methods – a Comparative Analysis.” Prace Naukowe Uniwersytetu Ekonomicznego we Wrocławiu, no. 426: 22–31.
+2. Ching-Lai Hwang, K., Yoon (1981) "Multiple Attribute Decision Making: Methods and Applications" Lecture Notes in Economics and Mathematical Systems vol. 186
 3. G., R.,  Jahanshahloo, F., Hosseinzadeh Lotfi, A., R., Davoodi (2009) "Extension of TOPSIS for decision-making problems with interval data: Interval efficiency" Mathematical and Computer Modelling, Volume 49, Issues 5–6: 1137-1142
-4. Ching-Lai Hwang, K., Yoon (1981) "Multiple Attribute Decision Making: Methods and Applications" Lecture Notes in Economics and Mathematical Systems vol. 186
+4. Kukuła, K., Luty, L. (2018) “O Wyborze Metody Porządkowania Liniowego do Oceny Gospodarki odpadami W polsce W Ujęciu Przestrzennym.” Zeszyty Naukowe SGGW w Warszawie - Problemy Rolnictwa Światowego, vol. 18, no. 2: 183–192
 5. Kukuła, K. (1999) "Metoda unitaryzacji zerowanej na tle wybranych metod normowania cech diagnostycznych" Acta Scientifica Academiae Ostroviensis nr 4, 5-31
 6. Strahl, D. (1978), "Propozycja konstrukcji miary syntetycznej" Przegląd Statystyczny
