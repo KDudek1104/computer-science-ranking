@@ -308,12 +308,12 @@ Poniższe tabele prezentują 20 najwyżej sklasyfikowanych kierunków według ko
 
 
 
-20 najwyżej sklasyfikowanych kierunków na podstawie średniej wartości ze wszystkich cech syntetycznych Qi, które
+20 najwyżej sklasyfikowanych kierunków na podstawie średniej wartości ze wszystkich cech syntetycznych Qi
 
 ![image](https://github.com/KDudek1104/computer-science-ranking/assets/44409389/8defc0fd-3968-4e0a-a005-4fcdb2c97134)
 
 
-Macierz korelacji na podstawie współczynnik korelacji Pearsona
+Macierz korelacji na podstawie współczynnika korelacji Pearsona
 
 ![image](https://github.com/KDudek1104/computer-science-ranking/assets/44409389/a924646a-7332-4a79-9614-e8def9ed368e)
 
