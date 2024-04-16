@@ -216,31 +216,34 @@ W tej metodzie normalizację danych przeprowadza się stosując poniższy wzór:
 ![435608291_1096683048221400_8963528647939478991_n](https://github.com/KDudek1104/computer-science-ranking/assets/139448704/0b4a4ae0-29d9-4dac-9111-37026587cc52)
 
 
+gdzie:
 
-gdzie:  n_ij to wartość cechy j dla obiektu i po znormalizowaniu, 
-x_ij to nominalna wartość cechy j dla obiektu i 
-m to liczba obiektów
-n to liczba cech dla każdego obiektu
+- *n<sub>ij</sub>* to wartość cechy *j* dla obiektu *i* po znormalizowaniu,
+- *x<sub>ij</sub>* to nominalna wartość cechy *j* dla obiektu *i*,
+- *m* to liczba obiektów,
+- *n* to liczba cech dla każdego obiektu.
 
 W naszym przypadku ze względu na zastosowanie zarówno stymulant jak i destymulant wektor wzorca składa się z wartości maksymalnych każdej cechy po znormalizowaniu będącej stymulantem i minimalnych wartości dla destymulantów, natomiast wektor antywzorca będzie składał się z maksymalnych wartości dla destymulantów a minimalnych dla destymulantów. 
 
 
-Odległość od wzorca i antywzorca to odpowiednio d_i+ oraz d_i- według poniższych wzorów:
+Odległość od wzorca i antywzorca to odpowiednio *d<sub>i+</sub>* oraz *d<sub>i-</sub>* według poniższych wzorów:
 
 ![435657575_1101631484292102_8527506804191328804_n](https://github.com/KDudek1104/computer-science-ranking/assets/139448704/23b47b54-43b7-4117-bd3c-2884434c0b73)
 
 
 
-gdzie z_ij to wartość cechy j dla obiektu i po znormalizowaniu
-m to liczba cech dla każdego obiektu
+gdzie:
+- *z<sub>ij</sub>* to wartość cechy j dla obiektu i po znormalizowaniu
+- *m* to liczba cech dla każdego obiektu
 
-Ostateczny wynik analizy TOPSIS to wartość Q dla określonego obiektu, która jest wyrażona poniższym ilorazem:
+Ostateczny wynik analizy TOPSIS to wartość *Q* dla określonego obiektu, która jest wyrażona poniższym ilorazem:
 
 ![436578556_1778419016002811_9064331869705549827_n](https://github.com/KDudek1104/computer-science-ranking/assets/139448704/935e0e62-d6e4-4aa7-9a05-89f2806727fe)
 
 
-gdzie d_i- to odległość obiektu i od antywzorca
-	d_i+ to odległość obiektu i od wzorca
+gdzie:
+- *d<sub>i-</sub>* to odległość obiektu *i* od antywzorca
+- *d<sub>i+</sub>* to odległość obiektu *i* od wzorca
 
 
 ### Analiza metodą Nowak
@@ -253,35 +256,37 @@ Następne obliczenia wykonujemy zgodnie z poniższym wzorem:
 
 ![436088115_2066226290426594_7444667718072887934_n](https://github.com/KDudek1104/computer-science-ranking/assets/139448704/8c431add-a542-41a0-b306-bcd95091ab4c)
 
+gdzie:
+- *Q* oznacza wynik końcowy
+- *m* to liczba cech
+- *z<sub>ij</sub>* to wartość po znormalizowaniu cechy *j* obiektu *i*.
 
-gdzie Q oznacza wynik końcowy
-m to liczba cech
-z_ij to wartość po znormalizowaniu cechy j obiektu i
-
-W przypadku naszej analizy ze względu na wykorzystanie destymulant w ich przypadku wartości należało odjąć, a przy pozostałych cechach można było bezpośrednio korzystać ze wzoru.
+W przypadku naszej analizy ze względu na wykorzystanie destymulant, w ich przypadku wartości należało odjąć, a przy pozostałych cechach można było bezpośrednio korzystać ze wzoru.
 
 ### Analiza metodą STRAHL
-Jedna z wykorzystanych metod do analizy jest ta zaproponowana przez D. Strahl, Propozycja konstrukcji
+
+Jedną z wykorzystanych metod do analizy jest ta zaproponowana przez D. Strahl, Propozycja konstrukcji
 miary syntetycznej, „Przegląd Statystyczny” z 1978 r.
+
 Wzory:
 
 ![436552681_359291277113938_9039028363359408260_n](https://github.com/KDudek1104/computer-science-ranking/assets/139448704/b7518344-6020-4be4-9fd5-745d0646e342)
 
 gdzie:
-xji
-- wartość j-tej cechy dla i-tego kierunku i wydziału
-zij
-- to wartość unormowana dla j-tej cechy dla i-tego kierunku i wydziału
-Q – Ostateczny wynik analizy D. Strahl dla określonego kierunku informatycznego
-Aby otrzymać wartość unormowana dzielimy każdą poszczególna wartość w kolumnie przez wartość
-maksymalna dla tej kolumny.
-Następnie Aby otrzymać ostateczny wynik dla poszczególnych kierunków sumujemy unormowane
-wartości i dzieli przez ilość cech które porównujemy.
+*x<sub>ji</sub>* - wartość *j*-tej cechy dla *i*-tego kierunku i wydziału
+*z<sub>ij</sub>* - to wartość unormowana dla *j*-tej cechy dla *i*-tego kierunku i wydziału
+*Q* – Ostateczny wynik analizy D. Strahl dla określonego kierunku informatycznego
+
+Aby otrzymać wartość unormowaną, dzielimy każdą poszczególną wartość w kolumnie przez wartość
+maksymalną dla tej kolumny.
+
+Następnie, aby otrzymać ostateczny wynik dla poszczególnych kierunków, sumujemy unormowane
+wartości i dzielimy przez ilość cech, które porównujemy.
+
 
 ### Analiza metodą SSW
 Wzór:
 ![438154441_1453719338911414_3317707286583713279_n](https://github.com/KDudek1104/computer-science-ranking/assets/139448704/a4c3fe98-637f-40d2-a1c5-9a84afbd1a97)
-
 
 # Wyniki
 Tak prezentuje się top 20 miejsc według kolejnych metod porządkowania liniowego:
