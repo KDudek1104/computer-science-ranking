@@ -147,6 +147,8 @@ Zauważyliśmy również wyraźną różnicę, chociaż nie tak, jak na poprzedn
 ## Wstępna analiza danych
 
 ### Statystyki opisowe
+Analiza wyników przy zastosowaniu różnych metod wielokryterialnych wykazała pewne statystycznie istotne tendencje, takie jak wyższe współczynniki dla uczelni publicznych w porównaniu z uczelniami prywatnymi. Wśród analizowanych kierunków, Informatyka na Politechnice Warszawskiej, szczególnie na Wydziale Elektrycznym, konsekwentnie zajmuje pozycję nr 1 niezależnie od zastosowanej metody (MUZ, TOPSIS, NOWAK, SSW, STRAHL). W ścisłej czołówce znajdują się również Informatyka na Politechnice Gdańskiej (Wydział Elektroniki, Telekomunikacji i Informatyki), Informatyka na Politechnice Warszawskiej (Wydział Elektroniki i Technik Informacyjnych), Informatyka na Akademii Górniczo-Hutniczej w Krakowie (Wydział Elektrotechniki, Automatyki, Informatyki i Inżynierii Biomedycznej) oraz Informatyka na Wojskowej Akademii Technicznej im. Jarosława Dąbrowskiego (Wydział Cybernetyki). Warto zauważyć, że wszystkie te programy znajdujące się w pierwszej piątce charakteryzują się silnym profilem technicznym, a także oferują kształcenie w trybie stacjonarnym. Istotnym wnioskiem w naszej analizie jest też duże zróżnicowanie zarobków w zależności od uczelni i wydziału. Ta analiza może być przydatna dla przyszłych studentów oraz instytucji edukacyjnych do lepszego zrozumienia i oceny jakości oferowanych programów studiów.
+
 ### Podstawowa wizualizacja
 
 ### Braki danych
