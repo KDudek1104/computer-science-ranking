@@ -79,6 +79,8 @@ Metodologia ich analizy obejmuje takie czynniki jak:
 5. **Potencjał naukowy:** Liczba publikacji, cytowalność, wskaźnik FWCI, FWVI oraz obecność publikacji w top 10% najczęściej cytowanych czasopismach.
 6. **Umiędzynarodowienie:** Udział publikacji we współpracy zagranicznej oraz liczba studentów obcokrajowców.
 
+Pozostałymi pracami, na które warto zwrócić uwagę są te, w których wykorzystywaną są wspólne metody analizy statystycznej.
+
 
 
 ## Zmienne wybrane do analizy:
@@ -334,9 +336,9 @@ Różnice między analizą w rankingu "Perspektywy" a naszą analizą obejmują:
 Warto również zaznaczyć, że nasza analiza może być bardziej spersonalizowana, pozwalając na dostosowanie metodologii do konkretnych potrzeb i celów badawczych.
 
 # Bibliografia
-1. Kukuła, Karol, and Lidia Luty. “O Wyborze Metody Porządkowania Liniowego do Oceny Gospodarki odpadami W polsce W Ujęciu Przestrzennym.” Zeszyty Naukowe SGGW w Warszawie - Problemy Rolnictwa Światowego, vol. 18, no. 2, 30 June 2018, pp. 183–192, https://doi.org/10.22630/prs.2018.18.2.46.
-2. Bąk, Andrzej. “Porządkowanie Liniowe Obiektów Metodą Hellwiga I Topsis – Analiza Porównawcza / Linear Ordering of Objects Using Hellwig and Topsis Methods – a Comparative Analysis.” Prace Naukowe Uniwersytetu Ekonomicznego we Wrocławiu, no. 426 (2016): 22–31. https://doi.org/10.15611/pn.2016.426.02. 
-3. https://en.wikipedia.org/wiki/TOPSIS
-4. Extension of TOPSIS for decision-making problems with interval data: Interval efficiency - G.R. Jahanshahloo, F. Hosseinzadeh Lotfi, A.R. Davoodi
-5. Multiple Attribute Decision Making: Methods and Applications - Ching-Lai Hwang, Yoon
-6. Metoda unitaryzacji zerowanej na tle wybranych metod normowania cech diagnostycznych - Karol Kukułka
+1. Kukuła, K., Luty, L. (2018) “O Wyborze Metody Porządkowania Liniowego do Oceny Gospodarki odpadami W polsce W Ujęciu Przestrzennym.” Zeszyty Naukowe SGGW w Warszawie - Problemy Rolnictwa Światowego, vol. 18, no. 2: 183–192
+2. Bąk, A. (2016) “Porządkowanie Liniowe Obiektów Metodą Hellwiga I Topsis – Analiza Porównawcza / Linear Ordering of Objects Using Hellwig and Topsis Methods – a Comparative Analysis.” Prace Naukowe Uniwersytetu Ekonomicznego we Wrocławiu, no. 426: 22–31. 
+3. G., R.,  Jahanshahloo, F., Hosseinzadeh Lotfi, A., R., Davoodi (2009) "Extension of TOPSIS for decision-making problems with interval data: Interval efficiency" Mathematical and Computer Modelling, Volume 49, Issues 5–6: 1137-1142
+4. Ching-Lai Hwang, K., Yoon (1981) "Multiple Attribute Decision Making: Methods and Applications" Lecture Notes in Economics and Mathematical Systems vol. 186
+5. Kukuła, K. (1999) "Metoda unitaryzacji zerowanej na tle wybranych metod normowania cech diagnostycznych" Acta Scientifica Academiae Ostroviensis nr 4, 5-31
+
