@@ -132,15 +132,19 @@ Pozostałymi pracami, na które warto zwrócić uwagę są te, w których wykorz
 ***Dodatkowe cechy zmiennych:***
 
 Większość kierunków informatycznych w Polsce, przyjętych do analizy to kierunki stacjonarne:
+
 ![435740204_738431308495392_706943029595757031_n](https://github.com/KDudek1104/computer-science-ranking/assets/139448704/f32d62aa-36d6-431a-afed-493a29ae9ce3)
 
 Jako kierunki informatyczne potraktowaliśmy nie tylko kierunek o nazwie 'Informatyka', ale również kierunki blisko pokrewne. Wykres z liczebnością konkretnych kierunków względem ich nazwy został pokazany poniżej:
+
 ![435649959_782637977133761_7021763242141476053_n](https://github.com/KDudek1104/computer-science-ranking/assets/139448704/6c8d5fca-78a3-418f-b749-87db847534eb)
 
 Już przy wstępnej analizie danych widać pierwsze charakterystyczne cechy poszczególnych zmiennych. Poniżej zamieszczony został wykres ukazujący wyraźne różnice między medianą zarobków po informatyce na polskich uczelniach po 1. roku po uzyskaniu dyplomu w porównaniu z 4. rokiem po uzyskaniu dyplomu. Ukazuje to wysoki wpływ doświadczenia zawodowego na wysokość zarobków w tej branży.
+
 ![435816852_449924534150871_1923132795031598496_n](https://github.com/KDudek1104/computer-science-ranking/assets/139448704/7da5b713-975e-43a2-9bd3-c805029204a7)
 
 Zauważyliśmy również wyraźną różnicę, chociaż nie tak, jak na poprzednim wykresie, ilustrującą poziom mediany zarobków z umów o pracę u osób z doświadczeniem i osób bez doświadczenia zdobywanego podczas studiów. Osoby pracujące na studiach osiągają wyższe zarobki od niepracujących nawet cztery lata po uzyskaniu dyplomu.
+
 ![435634353_782539333826726_6390269249690547385_n](https://github.com/KDudek1104/computer-science-ranking/assets/139448704/08e31fc5-1bc3-4f91-a668-9ffd8a741662)
 
 
@@ -149,8 +153,6 @@ Zauważyliśmy również wyraźną różnicę, chociaż nie tak, jak na poprzedn
 
 ### Statystyki opisowe
 Analiza wyników przy zastosowaniu różnych metod wielokryterialnych wykazała pewne statystycznie istotne tendencje, takie jak wyższe współczynniki dla uczelni publicznych w porównaniu z uczelniami prywatnymi. Wśród analizowanych kierunków, Informatyka na Politechnice Warszawskiej, szczególnie na Wydziale Elektrycznym, konsekwentnie zajmuje pozycję nr 1 niezależnie od zastosowanej metody (MUZ, TOPSIS, NOWAK, SSW, STRAHL). W ścisłej czołówce znajdują się również Informatyka na Politechnice Gdańskiej (Wydział Elektroniki, Telekomunikacji i Informatyki), Informatyka na Politechnice Warszawskiej (Wydział Elektroniki i Technik Informacyjnych), Informatyka na Akademii Górniczo-Hutniczej w Krakowie (Wydział Elektrotechniki, Automatyki, Informatyki i Inżynierii Biomedycznej) oraz Informatyka na Wojskowej Akademii Technicznej im. Jarosława Dąbrowskiego (Wydział Cybernetyki). Warto zauważyć, że wszystkie te programy znajdujące się w pierwszej piątce charakteryzują się silnym profilem technicznym, a także oferują kształcenie w trybie stacjonarnym. Istotnym wnioskiem w naszej analizie jest też duże zróżnicowanie zarobków w zależności od uczelni i wydziału. Ta analiza może być przydatna dla przyszłych studentów oraz instytucji edukacyjnych do lepszego zrozumienia i oceny jakości oferowanych programów studiów.
-
-### Podstawowa wizualizacja
 
 ### Braki danych
 Braki danych były ważnym problemem w analizie, który należało obsłużyć. Wszystkie uczelnie miały pełne dane dotyczące bezrobocia i procentu osób kontynujących studia 2. stopnia na tej samej uczelni. Niestety, nie dysponowaliśmy przy niektórych pozycjach informacjami odnośnie zarobków (zarówno rok jak i 4 lata po dyplomie). Pozycje, w których brakowało obu kolumn w danym roku po uzyskaniu dyplomu (1 lub 4) zarówno w medianie zarobków z tytułu o prace, jak i medianie zarobków ze wszystkich źródeł, były usuwane. Uważamy, że symulacja tak ważnych kolumn w naszej analizie nie byłaby wystarczająco obiektywna. Jeśli jednak mieliśmy dane odnośnie co najmniej jednej kolumny (patrząc osobno na rok 1. i rok 4.), symulowliśmy dane w kolumnie z tym samym rokiem po uzyskaniu dyplomu. Odpowiednio:
