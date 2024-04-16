@@ -281,8 +281,7 @@ W przypadku naszej analizy ze względu na wykorzystanie destymulant, w ich przyp
 
 ### Analiza metodą STRAHL
 
-Jedną z wykorzystanych metod do analizy jest ta zaproponowana przez D. Strahl, Propozycja konstrukcji
-miary syntetycznej, „Przegląd Statystyczny” z 1978 r.
+Jedną z wykorzystanych metod do analizy jest ta zaproponowana w pracy: Strahl, D. (1978), "Propozycja konstrukcji miary syntetycznej" Przegląd Statystyczny
 
 Wzory:
 
@@ -362,4 +361,4 @@ Warto również zaznaczyć, że nasza analiza może być bardziej spersonalizowa
 3. G., R.,  Jahanshahloo, F., Hosseinzadeh Lotfi, A., R., Davoodi (2009) "Extension of TOPSIS for decision-making problems with interval data: Interval efficiency" Mathematical and Computer Modelling, Volume 49, Issues 5–6: 1137-1142
 4. Ching-Lai Hwang, K., Yoon (1981) "Multiple Attribute Decision Making: Methods and Applications" Lecture Notes in Economics and Mathematical Systems vol. 186
 5. Kukuła, K. (1999) "Metoda unitaryzacji zerowanej na tle wybranych metod normowania cech diagnostycznych" Acta Scientifica Academiae Ostroviensis nr 4, 5-31
-
+6. Strahl, D. (1978), "Propozycja konstrukcji miary syntetycznej" Przegląd Statystyczny
