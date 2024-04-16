@@ -291,7 +291,7 @@ Wzór:
 ![438154441_1453719338911414_3317707286583713279_n](https://github.com/KDudek1104/computer-science-ranking/assets/139448704/a4c3fe98-637f-40d2-a1c5-9a84afbd1a97)
 
 # Wyniki
-Tak prezentuje się top 20 miejsc według kolejnych metod porządkowania liniowego:
+Poniższe tabele prezentują 20 najwyżej sklasyfikowanych kierunków według kolejnych metod porządkowania liniowego:
 
 
 ![top20hellwig](https://github.com/KDudek1104/computer-science-ranking/assets/44409389/4750b411-bf3e-432c-80f1-896773862589)
@@ -302,18 +302,18 @@ Tak prezentuje się top 20 miejsc według kolejnych metod porządkowania liniowe
 ![top20strahl](https://github.com/KDudek1104/computer-science-ranking/assets/44409389/ba9c7b94-e265-4d6d-9daa-f3b6bae5054c)
 
 
-Oraz top 20 miejsc według średniej wartości RANK każdej z metod:
+20 najwyżej sklasyfikowanych kierunków według średniego miejsca (RANK) zajętego we wszystkich przeprowadzonych metodach:
 
 ![image](https://github.com/KDudek1104/computer-science-ranking/assets/44409389/9d3cea24-1689-4914-b8d4-6d2e94d37fd0)
 
 
 
-Oraz top 20 miejsc według średniej ze wszystkich cech syntetycznych Qi, które
+20 najwyżej sklasyfikowanych kierunków na podstawie średniej wartości ze wszystkich cech syntetycznych Qi, które
 
 ![image](https://github.com/KDudek1104/computer-science-ranking/assets/44409389/8defc0fd-3968-4e0a-a005-4fcdb2c97134)
 
 
-Macierz korelacji - współczynnik korelacji Pearsona
+Macierz korelacji na podstawie współczynnik korelacji Pearsona
 
 ![image](https://github.com/KDudek1104/computer-science-ranking/assets/44409389/a924646a-7332-4a79-9614-e8def9ed368e)
 
