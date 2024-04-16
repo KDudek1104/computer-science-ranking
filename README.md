@@ -35,13 +35,17 @@
 
     
 # Tytuł pracy
+<div align="justify">
 Badanie perspektyw zawodowych absolwentów kierunku informatyka na polskich uczelniach
+</div>
 
 # Autorzy
+<div align="justify">
 - Katarzyna Dudek 217369
 - Jakub Czabok 217293
 - Karolina Dekajło 217482
 - Mateusz Chudowolski 217330
+</div>
 
 # Streszczenie
 <div align="justify">
@@ -54,9 +58,12 @@ Perspektywy zawodowe, Absolwenci, Kierunek informatyka, Polskie uczelnie, Analiz
 </div>
 
 # Wprowadzenie
+<div align="justify">
 Absolwenci kierunku informatyka odgrywają kluczową rolę w dzisiejszym społeczeństwie opartym na technologii. Jednakże, ich ekonomiczne losy po ukończeniu studiów mogą znacząco się różnić w zależności od wielu czynników. Niniejsza praca ma na celu zbadanie tych różnic oraz stworzenie rankingów porównujących sytuację ekonomiczną absolwentów poszczególnych uczelni i programów studiów informatycznych w Polsce.
+</div>
 
 # Przedmiot badania
+<div align="justify">
 Celem badania jest zastosowanie metod statystycznych porządkowania obiektów w celu utworzenia rankingów porównujących uśrednione sytuacje ekonomiczne absolwentów studiów informatycznych w Polsce. Analiza obejmuje zmienne takie jak zarobki po ukończeniu studiów, stopień zatrudnienia, lokalizacja zatrudnienia oraz ewentualne dodatkowe kwalifikacje. W literaturze istnieją badania pokazujące, że wybór konkretnej uczelni czy specjalizacji może mieć istotny wpływ na karierę zawodową i zarobki absolwentów.
 
 ## Cel i zakres badania
@@ -150,7 +157,7 @@ Zauważyliśmy również wyraźną różnicę, chociaż nie tak, jak na poprzedn
 
 
 ## Wstępna analiza danych
-
+   
 ### Statystyki opisowe
 Analiza wyników przy zastosowaniu różnych metod wielokryterialnych wykazała pewne statystycznie istotne tendencje, takie jak wyższe współczynniki dla uczelni publicznych w porównaniu z uczelniami prywatnymi. Wśród analizowanych kierunków, Informatyka na Politechnice Warszawskiej, szczególnie na Wydziale Elektrycznym, konsekwentnie zajmuje pozycję nr 1 niezależnie od zastosowanej metody (MUZ, TOPSIS, NOWAK, SSW, STRAHL). W ścisłej czołówce znajdują się również Informatyka na Politechnice Gdańskiej (Wydział Elektroniki, Telekomunikacji i Informatyki), Informatyka na Politechnice Warszawskiej (Wydział Elektroniki i Technik Informacyjnych), Informatyka na Akademii Górniczo-Hutniczej w Krakowie (Wydział Elektrotechniki, Automatyki, Informatyki i Inżynierii Biomedycznej) oraz Informatyka na Wojskowej Akademii Technicznej im. Jarosława Dąbrowskiego (Wydział Cybernetyki). Warto zauważyć, że wszystkie te programy znajdujące się w pierwszej piątce charakteryzują się silnym profilem technicznym, a także oferują kształcenie w trybie stacjonarnym. Istotnym wnioskiem w naszej analizie jest też duże zróżnicowanie zarobków w zależności od uczelni i wydziału. Ta analiza może być przydatna dla przyszłych studentów oraz instytucji edukacyjnych do lepszego zrozumienia i oceny jakości oferowanych programów studiów.
 
@@ -192,8 +199,10 @@ Po uzupełnieniu pustych wartości, zapisujemy zmodyfikowane dane do nowego plik
 
 ### Obserwacje odstające
 W naszej analizie ekonomicznych losów absolwentów kierunku informatyka na polskich uczelniach nie było potrzeby obsługiwać obserwacji odstających. Wynika to głównie z charakteru danych oraz sposobu ich zbierania. Dane te są agregatami liczbowymi, takimi jak procent absolwentów w różnych kategoriach, mediany wynagrodzeń i inne miary podobne, które zostały zebrane na poziomie grupy absolwentów. Usunięcie takich obserwacji mogłoby zniekształcić rzeczywisty obraz sytuacji ekonomicznej absolwentów. Jednocześnie, po wstępnej analizie nie zauważyliśmy wyników, które można byloby uznać za nieprawidłowe- a odchylenia- zarówno te większe, jak i mniejsze, są w naszej analizie bardzo ważne i pokazują jak bardzo różnią się losy absolwentów po różnych uczelniach. Dlatego też zdecydowaliśmy się na pozostawienie danych w ich pierwotnej formie, bez dalszego przetwarzania w celu obsługi ewentualnych obserwacji odstających.
+</div>
 
 # Opis metod
+<div align="justify">
 
 ### Analiza metodą Hellwiga
 W ramach naszej analizy danych skorzystaliśmy z metody Hellwiga, która została opracowana przez Leo A. Hellwiga w 1972 roku. Jest to jedna z najczęściej stosowanych technik analizy danych, zwłaszcza w kontekście porządkowania liniowego. Metoda ta bazuje na minimalizacji kryteriów skrajnych, co umożliwia wyłonienie istotnych cech lub zmiennych decyzyjnych. Poprzez dokładne porównanie poszczególnych zmiennych, analiza przy użyciu metody Hellwiga pozwala na ich uporządkowanie z uwzględnieniem ich znaczenia w kontekście badanych danych.
@@ -308,7 +317,10 @@ Analiza została wykonana na podstawie wzorów wykorzystanych w pracy Kukuła, K
 
 ![438154441_1453719338911414_3317707286583713279_n](https://github.com/KDudek1104/computer-science-ranking/assets/139448704/a4c3fe98-637f-40d2-a1c5-9a84afbd1a97)
 
+</div>
+
 # Wyniki
+<div align="justify">
 Poniższe tabele prezentują 20 najwyżej sklasyfikowanych kierunków według kolejnych metod porządkowania liniowego:
 
 
@@ -335,9 +347,12 @@ Macierz korelacji na podstawie współczynnika korelacji Pearsona
 
 ![image](https://github.com/KDudek1104/computer-science-ranking/assets/44409389/a924646a-7332-4a79-9614-e8def9ed368e)
 
+</div>
+
 
 
 # Podsumowanie
+<div align="justify">
 Praca skupiła się na badaniu ekonomicznych losów absolwentów studiów informatycznych w Polsce. Uzyskane wyniki potwierdzają istotność wyboru programu studiów i uczelni dla przyszłych perspektyw zawodowych i zarobków absolwentów. Odniesienie do literatury wskazuje na zgodność uzyskanych wyników z wcześniejszymi badaniami w dziedzinie.
 ## Ocena realizacji celu
 
@@ -359,11 +374,14 @@ Różnice między analizą w rankingu "Perspektywy" a naszą analizą obejmują:
 - Zakres analizy, np. "Perspektywy" skupiły się bardziej ogólnie niż my, podczas gdy nasza analiza jest bardziej szczegółowa w określonej dziedzinie- zawodowe losy absolwentów.
 - "Perspektywy" mają dwa osobne rankingi dla studiów informatycznych, z czego jeden jest jedynie dla programów z tytułem "magister inżynier", a jeden jedynie dla programów z tytułem "inżynier". Utrudnia to porównanie ze sobą dwóch kierunków informatycznych z innym nadawanym tytułem, czego chcieliśmy uniknąć w naszej analizie.
 Warto również zaznaczyć, że nasza analiza może być bardziej spersonalizowana, pozwalając na dostosowanie metodologii do konkretnych potrzeb i celów badawczych.
+</div>
 
 # Bibliografia
+<div align="justify">
 1. Bąk, A. (2016) “Porządkowanie Liniowe Obiektów Metodą Hellwiga I Topsis – Analiza Porównawcza / Linear Ordering of Objects Using Hellwig and Topsis Methods – a Comparative Analysis.” Prace Naukowe Uniwersytetu Ekonomicznego we Wrocławiu, no. 426: 22–31.
 2. Ching-Lai Hwang, K., Yoon (1981) "Multiple Attribute Decision Making: Methods and Applications" Lecture Notes in Economics and Mathematical Systems vol. 186
 3. G., R.,  Jahanshahloo, F., Hosseinzadeh Lotfi, A., R., Davoodi (2009) "Extension of TOPSIS for decision-making problems with interval data: Interval efficiency" Mathematical and Computer Modelling, Volume 49, Issues 5–6: 1137-1142
 4. Kukuła, K., Luty, L. (2018) “O Wyborze Metody Porządkowania Liniowego do Oceny Gospodarki odpadami W polsce W Ujęciu Przestrzennym.” Zeszyty Naukowe SGGW w Warszawie - Problemy Rolnictwa Światowego, vol. 18, no. 2: 183–192
 5. Kukuła, K. (1999) "Metoda unitaryzacji zerowanej na tle wybranych metod normowania cech diagnostycznych" Acta Scientifica Academiae Ostroviensis nr 4, 5-31
 6. Strahl, D. (1978), "Propozycja konstrukcji miary syntetycznej" Przegląd Statystyczny
+</div>
