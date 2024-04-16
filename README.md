@@ -121,6 +121,7 @@ Pozostałymi pracami, na które warto zwrócić uwagę są te, w których wykorz
 
 
 ***Rozkłady zmiennych:***
+
 ![Rozkład zmiennej P_CZY_BEZR_P1](https://github.com/KDudek1104/computer-science-ranking/assets/44409389/d0873579-7c43-49ae-88e4-64b5aa0dab5b)
 
 ![Rozkład zmiennej P_CZY_BEZR_P4](https://github.com/KDudek1104/computer-science-ranking/assets/44409389/c5fd8867-42f0-49b3-957f-576d58f82832)
